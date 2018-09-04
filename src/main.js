@@ -4,6 +4,7 @@ import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
+import axios from 'axios';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faFootballBall } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -19,10 +20,12 @@ Vue.component('page-heading', PageHeading);
 
 Vue.config.productionTip = false;
 
+Vue.prototype.$http = axios;
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
 })
