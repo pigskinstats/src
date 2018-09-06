@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 const Resource = {
-  google: 'https://www.google.com',
-  scores: 'http://localhost:8080/static/wolfe-scores/2018/2018.09.01.txt',
+  scores: '/static/wolfe-scores/2018/current.txt',
 };
 
 class Api {
