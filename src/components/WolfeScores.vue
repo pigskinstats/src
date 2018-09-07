@@ -4,7 +4,7 @@
     <div>Source: <a href="http://prwolfe.bol.ucla.edu/cfootball/scores.htm">Wolfe Scores</a></div>
     <table cellspacing="10" border="1" class="score-table">
       <tr v-for="game in games">
-        <td>{{ game.date }}</td>
+        <td>{{ game.date.toString() }}</td>
         <td>{{ game.homeTeam.name }}</td>
         <td>{{ game.homeTeam.score }}</td>
         <td>{{ game.awayTeam.name }}</td>
@@ -27,7 +27,7 @@ export default {
     };
 
     api.wolfeScores.then(r => {
-      result.games = parser.parse(r);
+      result.games = parser.parse(r).sort((a, b) => b.date.unix - a.date.unix);
     }).catch(e => result.error = e);
 
     return result;
