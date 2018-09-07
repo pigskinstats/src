@@ -5,10 +5,10 @@
     <table cellspacing="10" border="1" class="score-table">
       <tr v-for="game in games">
         <td>{{ game.date.toString() }}</td>
-        <td>{{ game.homeTeam.name }}</td>
-        <td>{{ game.homeTeam.score }}</td>
-        <td>{{ game.awayTeam.name }}</td>
-        <td>{{ game.awayTeam.score }}</td>
+        <td :class="teamStyle(game.homeTeam, game.awayTeam)">{{ game.homeTeam.name }}</td>
+        <td :class="teamStyle(game.homeTeam, game.awayTeam)">{{ game.homeTeam.score }}</td>
+        <td :class="teamStyle(game.awayTeam, game.homeTeam)">{{ game.awayTeam.name }}</td>
+        <td :class="teamStyle(game.awayTeam, game.homeTeam)">{{ game.awayTeam.score }}</td>
       </tr>
     </table>
     <div class="text-danger" v-if="error"><b>Error:</b> {{ error }}</div>
@@ -24,6 +24,15 @@ export default {
     const result = {
       games: [],
       error: '',
+      teamStyle: (currentTeam, otherTeam) => {
+        if(currentTeam.score > otherTeam.score) {
+          return { 'winner': true };
+        }
+
+        if(currentTeam.score < otherTeam.score) {
+          return { 'loser': true };
+        }
+      },
     };
 
     api.wolfeScores.then(r => {
@@ -42,5 +51,13 @@ export default {
 
 .score-table tr:nth-child(odd) {
   background-color: #ccc;
+}
+
+.winner {
+  background-color: #cec;
+}
+
+.loser {
+  background-color: #fff;
 }
 </style>
