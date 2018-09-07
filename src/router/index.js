@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/Home'
 import WolfeScores from '@/components/WolfeScores'
 
 Vue.use(Router)
