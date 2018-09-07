@@ -5,16 +5,20 @@ import BootstrapVue from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import axios from 'axios';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faFootballBall } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import {
+  faFootballBall,
+  faAngleRight,
+  faAngleLeft,
+} from '@fortawesome/free-solid-svg-icons'
 import App from './App';
 import router from './router';
 import PageHeading from '@/components/PageHeading';
 
 Vue.use(BootstrapVue);
 
-library.add(faFootballBall);
+library.add(faFootballBall, faAngleRight, faAngleLeft);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.component('page-heading', PageHeading);
 
