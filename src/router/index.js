@@ -10,10 +10,10 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: Home
+      component: WolfeScores
     },
     {
-      path: '/wolfe-scores',
+      path: '/scores',
       name: 'WolfeScores',
       component: WolfeScores
     },

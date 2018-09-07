@@ -1,8 +1,16 @@
 <template>
   <div>
-    <h2>Wolfe Scores</h2>
+    <h2>Scores</h2>
     <div>Source: <a href="http://prwolfe.bol.ucla.edu/cfootball/scores.htm">Wolfe Scores</a></div>
-    <pre>{{ scores }}</pre>
+    <table cellspacing="10" border="1" class="score-table">
+      <tr v-for="game in games">
+        <td>{{ game.date }}</td>
+        <td>{{ game.homeTeam.name }}</td>
+        <td>{{ game.homeTeam.score }}</td>
+        <td>{{ game.awayTeam.name }}</td>
+        <td>{{ game.awayTeam.score }}</td>
+      </tr>
+    </table>
     <div class="text-danger" v-if="error"><b>Error:</b> {{ error }}</div>
   </div>
 </template>
@@ -14,12 +22,12 @@ import parser from '../modules/wolfe-parser';
 export default {
   data: () => {
     const result = {
-      scores: 'x',
+      games: [],
       error: '',
     };
 
     api.wolfeScores.then(r => {
-      result.scores = parser.parse(r);
+      result.games = parser.parse(r);
     }).catch(e => result.error = e);
 
     return result;
@@ -28,4 +36,11 @@ export default {
 </script>
 
 <style scoped>
+.score-table {
+  width: 100%;
+}
+
+.score-table tr:nth-child(odd) {
+  background-color: #ccc;
+}
 </style>

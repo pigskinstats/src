@@ -4,13 +4,16 @@ const parseRegex = /^(\d+\-[A-Za-z]+\-\d+)\s+(.+?)\s\s+(\d+)\s+(.+?)\s\s+(\d+)/;
 function parseLine(line) {
   const parsed = parseRegex.exec(line);
   if(!parsed) console.error(line);
-  const dateString = parsed[1];
-  const scores = {};
-  scores[parsed[2]] = Number(parsed[3]);
-  scores[parsed[4]] = Number(parsed[5]);
   return {
-    date: dateString,
-    scores: scores,
+    date: parsed[1],
+    awayTeam: {
+      name: parsed[2],
+      score: Number(parsed[3])
+    },
+    homeTeam: {
+      name: parsed[4],
+      score: Number(parsed[5])
+    },
   };
 }
 
