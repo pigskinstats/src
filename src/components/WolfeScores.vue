@@ -23,38 +23,12 @@
 <script>
 import api from '../modules/api';
 import parser from '../modules/wolfe-parser';
-
-class Games {
-  constructor(allGames) {
-    this._allGames = allGames;
-    this._limit = 50;
-    this.gotoPage(1);
-  }
-
-  get pages() {
-    return Math.ceil(this._allGames.length / this._limit);
-  }
-
-  forward() {
-    this.gotoPage(this.page + 1);
-  }
-
-  back() {
-    this.gotoPage(this.page - 1);
-  }
-
-  gotoPage(page) {
-    this.page = page;
-    const start = this._limit * (this.page - 1);
-    const end = start + this._limit;
-    this.items = this._allGames.slice(start, end);
-  }
-}
+import { Paginator } from '../modules/pagination';
 
 export default {
   data: () => {
     const result = {
-      games: new Games([]),
+      games: new Paginator([]),
       error: '',
       teamStyle: (currentTeam, otherTeam) => {
         if(currentTeam.score > otherTeam.score) {
@@ -68,7 +42,7 @@ export default {
     };
 
     api.wolfeScores.then(r => {
-      result.games = new Games(parser.parse(r).sort((a, b) => b.date.unix - a.date.unix));
+      result.games = new Paginator(parser.parse(r).sort((a, b) => b.date.unix - a.date.unix));
     }).catch(e => result.error = e);
 
     return result;
