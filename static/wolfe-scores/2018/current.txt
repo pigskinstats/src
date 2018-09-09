@@ -399,323 +399,319 @@ Date      Away Team                      Home Team                      or semi-
 07-Sep-18 TCU                         42 SMU                         12
 07-Sep-18 Bentley                     24 Southern Conn St            22
 07-Sep-18 Mass Maritime               21 SUNY-Maritime               51
-08-Sep-18 Angelo St                   xx Abilene Christian           xx
-08-Sep-18 Buffalo St                  xx Adrian                      xx
-08-Sep-18 Morgan St                   xx Akron                       xx
-08-Sep-18 Arkansas St                 xx Alabama                     xx
-08-Sep-18 North Alabama               xx Alabama A&M                 xx
-08-Sep-18 Franklin                    xx Albion                      xx
-08-Sep-18 Mary Hardin-Baylor          xx Albright                    xx
-08-Sep-18 Louisiana College           xx Alcorn St                   xx
-08-Sep-18 Bowie St                    xx Alderson Broaddus           xx
-08-Sep-18 Livingstone                 xx Allen                       xx
-08-Sep-18 Manchester                  xx Alma                        xx
-08-Sep-18 Indiana Wesleyan            xx Anderson                    xx
-08-Sep-18 Ferrum                      xx Apprentice                  xx
-08-Sep-18 Whittier                    xx Arizona Christian           xx
-08-Sep-18 Michigan St                 xx Arizona St                  xx
-08-Sep-18 Henderson St                xx Arkansas Tech               xx
-08-Sep-18 NW Oklahoma St              xx Arkansas-Monticello         xx
-08-Sep-18 Cumberland TN               xx Arkansas-Pine Bluff         xx
-08-Sep-18 Liberty                     xx Army                        xx
-08-Sep-18 Alabama St                  xx Auburn                      xx
-08-Sep-18 Minn St-Mankato             xx Augustana SD                xx
-08-Sep-18 Elmhurst                    xx Aurora                      xx
-08-Sep-18 Presbyterian                xx Austin Peay                 xx
-08-Sep-18 McPherson                   xx Avila                       xx
-08-Sep-18 Simon Fraser                xx Azusa Pacific               xx
-08-Sep-18 Grand View                  xx Baker                       xx
-08-Sep-18 Otterbein                   xx Baldwin Wallace             xx
-08-Sep-18 Worcester St                xx Becker                      xx
-08-Sep-18 Knox                        xx Beloit                      xx
-08-Sep-18 Loras                       xx Benedictine IL              xx
-08-Sep-18 Bethel KS                   xx Bethany KS                  xx
-08-Sep-18 Grove City                  xx Bethany WV                  xx
-08-Sep-18 UW-River Falls              xx Bethel MN                   xx
-08-Sep-18 Virginia U-Lynchburg        xx Bethune-Cookman             xx
-08-Sep-18 Colorado Mines              xx Black Hills St              xx
-08-Sep-18 Edinboro                    xx Bloomsburg                  xx
-08-Sep-18 Connecticut                 xx Boise St                    xx
-08-Sep-18 Holy Cross                  xx Boston College              xx
-08-Sep-18 Maryland                    xx Bowling Green               xx
-08-Sep-18 Stevenson                   xx Bridgewater VA              xx
-08-Sep-18 California                  xx Brigham Young               xx
-08-Sep-18 Sacred Heart                xx Bucknell                    xx
-08-Sep-18 Pacific Lutheran            xx Cal Lutheran                xx
-08-Sep-18 Weber St                    xx Cal Poly SLO                xx
-08-Sep-18 Lawrence                    xx Carleton                    xx
-08-Sep-18 Linfield                    xx Carroll MT                  xx
-08-Sep-18 Murray St                   xx Central Arkansas            xx
-08-Sep-18 South Carolina St           xx Central Florida             xx
-08-Sep-18 Peru St                     xx Central Methodist           xx
-08-Sep-18 Kansas                      xx Central Michigan            xx
-08-Sep-18 Clark Atlanta               xx Central St OH               xx
-08-Sep-18 Simpson                     xx Chicago                     xx
-08-Sep-18 Bluefield                   xx Cincinnati Christian        xx
-08-Sep-18 Northwestern MN             xx Claremont-Mudd-Scripps      xx
-08-Sep-18 Union NY                    xx Coast Guard                 xx
-08-Sep-18 Alabama-Birmingham          xx Coastal Carolina            xx
-08-Sep-18 Arkansas                    xx Colorado St                 xx
-08-Sep-18 Chadron St                  xx Colorado St-Pueblo          xx
-08-Sep-18 Trinity Int'l               xx Concordia MI                xx
-08-Sep-18 Buena Vista                 xx Concordia NE                xx
-08-Sep-18 Augsburg                    xx Concordia WI                xx
-08-Sep-18 Upper Iowa                  xx Concordia-St Paul           xx
-08-Sep-18 Coe                         xx Cornell IA                  xx
-08-Sep-18 Framingham St               xx Cortland St                 xx
-08-Sep-18 MidAmerica Nazarene         xx Culver-Stockton             xx
-08-Sep-18 Faulkner                    xx Cumberlands KY              xx
-08-Sep-18 UW-Oshkosh                  xx Davenport                   xx
-08-Sep-18 Chowan                      xx Davidson                    xx
-08-Sep-18 Western Conn St             xx Dean                        xx
-08-Sep-18 Hope                        xx Defiance                    xx
-08-Sep-18 Lafayette                   xx Delaware                    xx
-08-Sep-18 Grand Valley St             xx Delta St                    xx
-08-Sep-18 Central IA                  xx DePauw                      xx
-08-Sep-18 Fort Lewis                  xx Dixie St                    xx
-08-Sep-18 Valparaiso                  xx Duquesne                    xx
-08-Sep-18 Hiram                       xx Earlham                     xx
-08-Sep-18 North Carolina              xx East Carolina               xx
-08-Sep-18 Seton Hill                  xx East Stroudsburg            xx
-08-Sep-18 Colorado Mesa               xx Eastern New Mexico          xx
-08-Sep-18 Furman                      xx Elon                        xx
-08-Sep-18 Iowa Wesleyan               xx Eureka                      xx
-08-Sep-18 Benedictine KS              xx Evangel                     xx
-08-Sep-18 Urbana                      xx Fairmont St                 xx
-08-Sep-18 Findlay                     xx Ferris St                   xx
-08-Sep-18 Castleton                   xx Fitchburg St                xx
-08-Sep-18 Kentucky                    xx Florida                     xx
-08-Sep-18 Air Force                   xx Florida Atlantic            xx
-08-Sep-18 Samford                     xx Florida St                  xx
-08-Sep-18 Newberry                    xx Florida Tech                xx
-08-Sep-18 St Vincent                  xx Geneva                      xx
-08-Sep-18 Howard Payne                xx George Fox                  xx
-08-Sep-18 Campbell                    xx Georgetown DC               xx
-08-Sep-18 Massachusetts               xx Georgia Southern            xx
-08-Sep-18 Notre Dame OH               xx Glenville St                xx
-08-Sep-18 Gallaudet                   xx Greensboro                  xx
-08-Sep-18 Trinity Bible               xx Grinnell                    xx
-08-Sep-18 Methodist                   xx Guilford                    xx
-08-Sep-18 UW-Stout                    xx Gustavus Adolphus           xx
-08-Sep-18 Macalester                  xx Hamline                     xx
-08-Sep-18 Christopher Newport         xx Hampden-Sydney              xx
-08-Sep-18 Thomas More                 xx Hanover                     xx
-08-Sep-18 Southern Arkansas           xx Harding                     xx
-08-Sep-18 Alfred St                   xx Hartwick                    xx
-08-Sep-18 Rice                        xx Hawai`i                     xx
-08-Sep-18 Morrisville St              xx Hobart                      xx
-08-Sep-18 Arizona                     xx Houston                     xx
-08-Sep-18 McNeese St                  xx Houston Baptist             xx
-08-Sep-18 Birmingham-Southern         xx Huntingdon AL               xx
-08-Sep-18 Western New Mexico          xx Idaho                       xx
-08-Sep-18 Western Illinois            xx Illinois                    xx
-08-Sep-18 Nebraska Wesleyan           xx Illinois College            xx
-08-Sep-18 Eastern Illinois            xx Illinois St                 xx
-08-Sep-18 UW-La Crosse                xx Illinois Wesleyan           xx
-08-Sep-18 Virginia                    xx Indiana                     xx
-08-Sep-18 Wayne St MI                 xx Indianapolis                xx
-08-Sep-18 Iowa St                     xx Iowa                        xx
-08-Sep-18 Brockport St                xx Ithaca                      xx
-08-Sep-18 Mississippi Valley St       xx Jacksonville St             xx
-08-Sep-18 Northwestern IA             xx Jamestown                   xx
-08-Sep-18 Benedict                    xx Johnson C. Smith            xx
-08-Sep-18 Franklin & Marshall         xx Juniata                     xx
-08-Sep-18 Greenville                  xx Kalamazoo                   xx
-08-Sep-18 Mississippi St              xx Kansas St                   xx
-08-Sep-18 Friends                     xx Kansas Wesleyan             xx
-08-Sep-18 Springfield                 xx Kean                        xx
-08-Sep-18 Howard                      xx Kent St                     xx
-08-Sep-18 McKendree                   xx Kentucky St                 xx
-08-Sep-18 Oberlin                     xx Kenyon                      xx
-08-Sep-18 California PA               xx Kutztown                    xx
-08-Sep-18 Berry                       xx LaGrange                    xx
-08-Sep-18 North Central               xx Lake Forest                 xx
-08-Sep-18 Morehouse                   xx Lane                        xx
-08-Sep-18 Ottawa AZ                   xx Langston                    xx
-08-Sep-18 Wilkes                      xx Lebanon Valley              xx
-08-Sep-18 Villanova                   xx Lehigh                      xx
-08-Sep-18 Pomona-Pitzer               xx Lewis & Clark OR            xx
-08-Sep-18 St Ambrose                  xx Lindenwood-Belleville       xx
-08-Sep-18 Ave Maria                   xx Lindsey Wilson              xx
-08-Sep-18 American Int'l              xx LIU Post                    xx
-08-Sep-18 Clarion                     xx Lock Haven                  xx
-08-Sep-18 Southern U.                 xx Louisiana Tech              xx
-08-Sep-18 Indiana St                  xx Louisville                  xx
-08-Sep-18 SE Louisiana                xx LSU                         xx
-08-Sep-18 Lake Erie                   xx Malone                      xx
-08-Sep-18 Capital                     xx Marietta                    xx
-08-Sep-18 Shaw                        xx Mars Hill                   xx
-08-Sep-18 Eastern Kentucky            xx Marshall                    xx
-08-Sep-18 Bemidji St                  xx Mary                        xx
-08-Sep-18 Centre                      xx Maryville                   xx
-08-Sep-18 St Scholastica              xx Mayville St                 xx
-08-Sep-18 Moravian                    xx McDaniel                    xx
-08-Sep-18 Southwestern TX             xx McMurry                     xx
-08-Sep-18 Jacksonville FL             xx Mercer                      xx
-08-Sep-18 Tiffin                      xx Mercyhurst                  xx
-08-Sep-18 Assumption                  xx Merrimack                   xx
-08-Sep-18 Savannah St                 xx Miami FL                    xx
-08-Sep-18 Cincinnati                  xx Miami OH                    xx
-08-Sep-18 Western Michigan            xx Michigan                    xx
-08-Sep-18 Hillsdale                   xx Michigan Tech               xx
-08-Sep-18 Tennessee-Martin            xx Middle Tennessee St         xx
-08-Sep-18 West Florida                xx Midwestern St               xx
-08-Sep-18 Westminster MO              xx Millsaps                    xx
-08-Sep-18 Fresno St                   xx Minnesota                   xx
-08-Sep-18 St Cloud St                 xx Minnesota-Crookston         xx
-08-Sep-18 Minn St-Moorhead            xx Minnesota-Duluth            xx
-08-Sep-18 Southern Illinois           xx Mississippi                 xx
-08-Sep-18 SW Baptist                  xx Mississippi College         xx
-08-Sep-18 Wyoming                     xx Missouri                    xx
-08-Sep-18 Lindenwood                  xx Missouri Southern           xx
-08-Sep-18 Wartburg                    xx Monmouth IL                 xx
-08-Sep-18 Hampton                     xx Monmouth NJ                 xx
-08-Sep-18 Drake                       xx Montana                     xx
-08-Sep-18 Eastern Oregon              xx Montana Tech                xx
-08-Sep-18 Montana St-Northern         xx Montana-Western             xx
-08-Sep-18 Salve Regina                xx Montclair St                xx
-08-Sep-18 Mt St Joseph                xx Morehead St                 xx
-08-Sep-18 Dickinson                   xx Muhlenberg                  xx
-08-Sep-18 Memphis                     xx Navy                        xx
-08-Sep-18 Colorado                    xx Nebraska                    xx
-08-Sep-18 Colgate                     xx New Hampshire               xx
-08-Sep-18 Frostburg St                xx New Jersey                  xx
-08-Sep-18 Adams St                    xx New Mexico Highlands        xx
-08-Sep-18 James Madison               xx Norfolk St                  xx
-08-Sep-18 Gardner-Webb                xx North Carolina A&T          xx
-08-Sep-18 St Augustine's              xx North Carolina Central      xx
-08-Sep-18 Georgia St                  xx North Carolina St           xx
-08-Sep-18 Lenoir-Rhyne                xx North Greenville            xx
-08-Sep-18 Incarnate Word              xx North Texas                 xx
-08-Sep-18 Eastern Washington          xx Northern Arizona            xx
-08-Sep-18 Utah                        xx Northern Illinois           xx
-08-Sep-18 Texas-Permian Basin         xx Northern Michigan           xx
-08-Sep-18 Duke                        xx Northwestern                xx
-08-Sep-18 Grambling St                xx Northwestern St             xx
-08-Sep-18 Missouri S&T                xx Northwood                   xx
-08-Sep-18 Ball St                     xx Notre Dame                  xx
-08-Sep-18 Ashland                     xx Ohio Dominican              xx
-08-Sep-18 Muskingum                   xx Ohio Northern               xx
-08-Sep-18 Rutgers                     xx Ohio State                  xx
-08-Sep-18 UCLA                        xx Oklahoma                    xx
-08-Sep-18 SE Oklahoma St              xx Oklahoma Baptist            xx
-08-Sep-18 South Alabama               xx Oklahoma St                 xx
-08-Sep-18 Florida Int'l               xx Old Dominion                xx
-08-Sep-18 Concordia IL                xx Olivet                      xx
-08-Sep-18 Siena Heights               xx Olivet Nazarene             xx
-08-Sep-18 Portland St                 xx Oregon                      xx
-08-Sep-18 Southern Utah               xx Oregon St                   xx
-08-Sep-18 St Mary KS                  xx Ottawa KS                   xx
-08-Sep-18 SW Oklahoma St              xx Ouachita Baptist            xx
-08-Sep-18 New Haven                   xx Pace                        xx
-08-Sep-18 Dubuque                     xx Pacific OR                  xx
-08-Sep-18 Penn State                  xx Pittsburgh                  xx
-08-Sep-18 Edward Waters               xx Point U.                    xx
-08-Sep-18 Crown                       xx Presentation                xx
-08-Sep-18 Redlands                    xx Puget Sound                 xx
-08-Sep-18 Eastern Michigan            xx Purdue                      xx
-08-Sep-18 Kentucky Wesleyan           xx Quincy                      xx
-08-Sep-18 Averett                     xx Randolph-Macon              xx
-08-Sep-18 Georgetown KY               xx Reinhardt                   xx
-08-Sep-18 Albany NY                   xx Rhode Island                xx
-08-Sep-18 Fordham                     xx Richmond                    xx
-08-Sep-18 Finlandia                   xx Ripon                       xx
-08-Sep-18 Marian IN                   xx Robert Morris IL            xx
-08-Sep-18 Virginia St                 xx Robert Morris PA            xx
-08-Sep-18 Carnegie Mellon             xx Rochester                   xx
-08-Sep-18 Martin Luther               xx Rockford                    xx
-08-Sep-18 Dickinson St                xx Rocky Mountain              xx
-08-Sep-18 Rhodes                      xx Rose-Hulman                 xx
-08-Sep-18 WPI                         xx RPI                         xx
-08-Sep-18 Prairie View A&M            xx Sam Houston St              xx
-08-Sep-18 Sacramento St               xx San Diego St                xx
-08-Sep-18 Dayton                      xx SE Missouri St              xx
-08-Sep-18 Washington and Lee          xx Sewanee                     xx
-08-Sep-18 North Carolina Wesleyan     xx Shenandoah                  xx
-08-Sep-18 Slippery Rock               xx Shippensburg                xx
-08-Sep-18 Tusculum                    xx Shorter                     xx
-08-Sep-18 Georgia                     xx South Carolina              xx
-08-Sep-18 Northern Colorado           xx South Dakota                xx
-08-Sep-18 Montana St                  xx South Dakota St             xx
-08-Sep-18 Western St CO               xx South Dakota Tech           xx
-08-Sep-18 Georgia Tech                xx South Florida               xx
-08-Sep-18 Louisiana-Monroe            xx Southern Miss               xx
-08-Sep-18 East Central OK             xx Southern Nazarene           xx
-08-Sep-18 Coll of Idaho               xx Southern Oregon             xx
-08-Sep-18 Rowan                       xx Southern Virginia           xx
-08-Sep-18 Sterling                    xx Southwestern KS             xx
-08-Sep-18 Stonehill                   xx St Anselm                   xx
-08-Sep-18 St Francis IN               xx St Francis IL               xx
-08-Sep-18 Delaware St                 xx St Francis PA               xx
-08-Sep-18 Norwich                     xx St Lawrence                 xx
-08-Sep-18 Luther                      xx St Olaf                     xx
-08-Sep-18 Missouri Baptist            xx St Xavier                   xx
-08-Sep-18 Southern Cal                xx Stanford                    xx
-08-Sep-18 Tarleton St                 xx Stephen F. Austin           xx
-08-Sep-18 Waldorf                     xx Stetson                     xx
-08-Sep-18 Bryant                      xx Stony Brook                 xx
-08-Sep-18 Johns Hopkins               xx Susquehanna                 xx
-08-Sep-18 Wayne St NE                 xx SW Minnesota St             xx
-08-Sep-18 Wagner                      xx Syracuse                    xx
-08-Sep-18 Texas Wesleyan              xx TAMU-Kingsville             xx
-08-Sep-18 Butler                      xx Taylor                      xx
-08-Sep-18 Buffalo                     xx Temple                      xx
-08-Sep-18 East Tennessee St           xx Tennessee                   xx
-08-Sep-18 Jackson St                  xx Tennessee St                xx Memphis TN
-08-Sep-18 Tulsa                       xx Texas                       xx
-08-Sep-18 Clemson                     xx Texas A&M                   xx
-08-Sep-18 Hendrix                     xx Texas Lutheran              xx
-08-Sep-18 Texas Southern              xx Texas St-San Marcos         xx
-08-Sep-18 Lamar                       xx Texas Tech                  xx
-08-Sep-18 Baylor                      xx Texas-San Antonio           xx
-08-Sep-18 Chattanooga                 xx The Citadel                 xx
-08-Sep-18 Bluffton                    xx Trine                       xx
-08-Sep-18 Hardin-Simmons              xx Trinity TX                  xx
-08-Sep-18 Florida A&M                 xx Troy                        xx
-08-Sep-18 Morningside                 xx Truman St                   xx
-08-Sep-18 Nicholls St                 xx Tulane                      xx
-08-Sep-18 Albany St GA                xx Tuskegee                    xx Phenix City
-08-Sep-18 Husson                      xx U of New England            xx
-08-Sep-18 San Diego                   xx UC-Davis                    xx
-08-Sep-18 Delaware Valley             xx UMass-Dartmouth             xx
-08-Sep-18 Appalachian St              xx UNC-Charlotte               xx
-08-Sep-18 Elizabeth City St           xx UNC-Pembroke                xx
-08-Sep-18 UTEP                        xx UNLV                        xx
-08-Sep-18 Gettysburg                  xx Ursinus                     xx
-08-Sep-18 New Mexico St               xx Utah St                     xx
-08-Sep-18 Catholic                    xx Utica                       xx
-08-Sep-18 St Norbert                  xx UW-Eau Claire               xx
-08-Sep-18 Concordia-Moorhead          xx UW-Whitewater               xx
-08-Sep-18 Fort Valley St              xx Valdosta St                 xx Waycross GA
-08-Sep-18 Minnesota-Morris            xx Valley City St              xx
-08-Sep-18 Nevada                      xx Vanderbilt                  xx
-08-Sep-18 William & Mary              xx Virginia Tech               xx
-08-Sep-18 Carson-Newman               xx Virginia Union              xx
-08-Sep-18 UW-Stevens Point            xx Wabash                      xx
-08-Sep-18 Towson                      xx Wake Forest                 xx
-08-Sep-18 Saginaw Valley St           xx Walsh                       xx
-08-Sep-18 Kentucky Christian          xx Warner U.                   xx
-08-Sep-18 Thiel                       xx Wash & Jeff                 xx
-08-Sep-18 North Dakota                xx Washington                  xx
-08-Sep-18 San José St                 xx Washington St               xx
-08-Sep-18 Austin                      xx Wayland Baptist             xx
-08-Sep-18 Westminster PA              xx Waynesburg                  xx
-08-Sep-18 Gannon                      xx West Chester                xx
-08-Sep-18 Limestone                   xx West Georgia                xx
-08-Sep-18 OK Panhandle St             xx West Texas A&M              xx
-08-Sep-18 Youngstown St               xx West Virginia               xx
-08-Sep-18 Virginia-Wise               xx West Virginia St            xx
-08-Sep-18 Maine                       xx Western Kentucky            xx
-08-Sep-18 Westfield St                xx Western New England         xx
-08-Sep-18 Central Washington          xx Western Oregon              xx
-08-Sep-18 Lycoming                    xx Widener                     xx
-08-Sep-18 TAMU-Commerce               xx William Jewell              xx
-08-Sep-18 FDU-Florham                 xx William Paterson            xx
-08-Sep-18 Missouri Valley             xx William Penn                xx
-08-Sep-18 Fayetteville St             xx Wingate                     xx
-08-Sep-18 Sioux Falls                 xx Winona St                   xx
-08-Sep-18 Catawba                     xx Winston-Salem St            xx
-08-Sep-18 New Mexico                  xx Wisconsin                   xx
-08-Sep-18 Lawrence Tech               xx Wisconsin Lutheran          xx
-08-Sep-18 VMI                         xx Wofford                     xx
-08-Sep-18 Allegheny                   xx Wooster                     xx
+08-Sep-18 Angelo St                   24 Abilene Christian           41
+08-Sep-18 Buffalo St                  27 Adrian                      56
+08-Sep-18 Morgan St                    7 Akron                       41
+08-Sep-18 Arkansas St                  7 Alabama                     57
+08-Sep-18 North Alabama               25 Alabama A&M                 20
+08-Sep-18 Franklin                    35 Albion                      56
+08-Sep-18 Mary Hardin-Baylor          91 Albright                     7
+08-Sep-18 Louisiana College            0 Alcorn St                   78
+08-Sep-18 Bowie St                    38 Alderson Broaddus           31
+08-Sep-18 Livingstone                 19 Allen                        0
+08-Sep-18 Manchester                  33 Alma                        39
+08-Sep-18 Indiana Wesleyan            61 Anderson                     6
+08-Sep-18 Ferrum                      31 Apprentice                  20
+08-Sep-18 Whittier                    42 Arizona Christian           67
+08-Sep-18 Michigan St                 13 Arizona St                  16
+08-Sep-18 Henderson St                38 Arkansas Tech               31
+08-Sep-18 NW Oklahoma St              36 Arkansas-Monticello         44
+08-Sep-18 Cumberland TN                0 Arkansas-Pine Bluff         55
+08-Sep-18 Liberty                     14 Army                        38
+08-Sep-18 Alabama St                   9 Auburn                      63
+08-Sep-18 Minn St-Mankato             38 Augustana SD                36
+08-Sep-18 Elmhurst                    21 Aurora                      20
+08-Sep-18 Presbyterian                 0 Austin Peay                 24
+08-Sep-18 McPherson                   31 Avila                       54
+08-Sep-18 Simon Fraser                14 Azusa Pacific               58
+08-Sep-18 Grand View                  39 Baker                       17
+08-Sep-18 Otterbein                    3 Baldwin Wallace             33
+08-Sep-18 Worcester St                23 Becker                      19
+08-Sep-18 Knox                        20 Beloit                      23
+08-Sep-18 Loras                       39 Benedictine IL              20
+08-Sep-18 Bethel KS                   28 Bethany KS                  31
+08-Sep-18 Grove City                   7 Bethany WV                  27
+08-Sep-18 UW-River Falls              27 Bethel MN                   32
+08-Sep-18 Virginia U-Lynchburg        16 Bethune-Cookman             79
+08-Sep-18 Colorado Mines              42 Black Hills St              20
+08-Sep-18 Edinboro                    21 Bloomsburg                  16
+08-Sep-18 Connecticut                  7 Boise St                    62
+08-Sep-18 Holy Cross                  14 Boston College              62
+08-Sep-18 Maryland                    45 Bowling Green               14
+08-Sep-18 Stevenson                   35 Bridgewater VA              23
+08-Sep-18 California                  21 Brigham Young               18
+08-Sep-18 Sacred Heart                30 Bucknell                    14
+08-Sep-18 Pacific Lutheran             8 Cal Lutheran                24
+08-Sep-18 Weber St                    24 Cal Poly SLO                17
+08-Sep-18 Lawrence                    23 Carleton                    44
+08-Sep-18 Linfield                    14 Carroll MT                  21
+08-Sep-18 Murray St                   13 Central Arkansas            26
+08-Sep-18 South Carolina St            0 Central Florida             38
+08-Sep-18 Peru St                     21 Central Methodist           42
+08-Sep-18 Kansas                      31 Central Michigan             7
+08-Sep-18 Clark Atlanta                0 Central St OH                7
+08-Sep-18 Simpson                     21 Chicago                      0
+08-Sep-18 Miami OH                     0 Cincinnati                  21
+08-Sep-18 Bluefield VA                45 Cincinnati Christian U.      7
+08-Sep-18 Northwestern MN              3 Claremont-Mudd-Scripps      14
+08-Sep-18 Union NY                    28 Coast Guard                 10
+08-Sep-18 Alabama-Birmingham          24 Coastal Carolina            47
+08-Sep-18 Arkansas                    27 Colorado St                 34
+08-Sep-18 Chadron St                  13 Colorado St-Pueblo          34
+08-Sep-18 Trinity Int'l                7 Concordia MI                51
+08-Sep-18 Buena Vista                 20 Concordia NE                27
+08-Sep-18 Augsburg                    27 Concordia WI                24
+08-Sep-18 Upper Iowa                   7 Concordia-St Paul           34
+08-Sep-18 Coe                         42 Cornell IA                   7
+08-Sep-18 Framingham St               19 Cortland St                 57
+08-Sep-18 MidAmerica Nazarene         46 Culver-Stockton             20
+08-Sep-18 Faulkner                    34 Cumberlands KY              44
+08-Sep-18 UW-Oshkosh                   3 Davenport                    7
+08-Sep-18 Chowan                      28 Davidson                    49
+08-Sep-18 Western Conn St             33 Dean                        22
+08-Sep-18 Hope                        41 Defiance                     0
+08-Sep-18 Lafayette                    0 Delaware                    37
+08-Sep-18 Grand Valley St             21 Delta St                    10
+08-Sep-18 Central IA                  16 DePauw                      10
+08-Sep-18 Fort Lewis                   3 Dixie St                    31
+08-Sep-18 Valparaiso                  21 Duquesne                    23
+08-Sep-18 Hiram                       47 Earlham                     13
+08-Sep-18 North Carolina              19 East Carolina               41
+08-Sep-18 Seton Hill                  34 East Stroudsburg            41
+08-Sep-18 Colorado Mesa               34 Eastern New Mexico          21
+08-Sep-18 Furman                       7 Elon                        45
+08-Sep-18 Iowa Wesleyan                6 Eureka                      38
+08-Sep-18 Benedictine KS              21 Evangel                     28
+08-Sep-18 Urbana                       7 Fairmont St                 45
+08-Sep-18 Findlay                     13 Ferris St                   59
+08-Sep-18 Castleton                   34 Fitchburg St                13
+08-Sep-18 Kentucky                    27 Florida                     16
+08-Sep-18 Air Force                   27 Florida Atlantic            33
+08-Sep-18 Samford                     26 Florida St                  36
+08-Sep-18 Newberry                    10 Florida Tech                17
+08-Sep-18 St Vincent                  27 Geneva                      31
+08-Sep-18 Howard Payne                 3 George Fox                  35
+08-Sep-18 Campbell                    13 Georgetown DC                8
+08-Sep-18 Massachusetts               13 Georgia Southern            34
+08-Sep-18 Notre Dame OH               27 Glenville St                17
+08-Sep-18 Gallaudet                   28 Greensboro                  44
+08-Sep-18 Trinity Bible                0 Grinnell                    46
+08-Sep-18 Methodist                   35 Guilford                    61
+08-Sep-18 UW-Stout                    24 Gustavus Adolphus           23
+08-Sep-18 Macalester                  29 Hamline                     27
+08-Sep-18 Christopher Newport         17 Hampden-Sydney              13
+08-Sep-18 Thomas More                 27 Hanover                     18
+08-Sep-18 Alfred St                   24 Hartwick                    49
+08-Sep-18 Rice                        29 Hawai`i                     43
+08-Sep-18 Morrisville St              24 Hobart                      62
+08-Sep-18 Arizona                     18 Houston                     45
+08-Sep-18 McNeese St                  51 Houston Baptist             34
+08-Sep-18 Birmingham-Southern         41 Huntingdon AL               35
+08-Sep-18 Western New Mexico          10 Idaho                       56
+08-Sep-18 Western Illinois            14 Illinois                    34
+08-Sep-18 Nebraska Wesleyan           31 Illinois College            12
+08-Sep-18 Eastern Illinois            10 Illinois St                 48
+08-Sep-18 UW-La Crosse                34 Illinois Wesleyan           31
+08-Sep-18 Virginia                    16 Indiana                     20
+08-Sep-18 Wayne St MI                  6 Indianapolis                28
+08-Sep-18 Iowa St                      3 Iowa                        13
+08-Sep-18 Brockport St                13 Ithaca                       7
+08-Sep-18 Mississippi Valley St        0 Jacksonville St             71
+08-Sep-18 Northwestern IA             49 Jamestown                    7
+08-Sep-18 Benedict                    42 Johnson C. Smith            14
+08-Sep-18 Franklin & Marshall         40 Juniata                     17
+08-Sep-18 Greenville                   7 Kalamazoo                   42
+08-Sep-18 Mississippi St              31 Kansas St                   10
+08-Sep-18 Friends                      0 Kansas Wesleyan             83
+08-Sep-18 Springfield                 42 Kean                         0
+08-Sep-18 Howard                      14 Kent St                     54
+08-Sep-18 McKendree                   34 Kentucky St                 17
+08-Sep-18 Oberlin                     35 Kenyon                      24
+08-Sep-18 California PA               31 Kutztown                    34
+08-Sep-18 Berry                       34 LaGrange                    21
+08-Sep-18 North Central               70 Lake Forest                 14
+08-Sep-18 Morehouse                   42 Lane                        20
+08-Sep-18 Ottawa AZ                   56 Langston                    63
+08-Sep-18 Wilkes                      30 Lebanon Valley              27
+08-Sep-18 Villanova                   31 Lehigh                       9
+08-Sep-18 Pomona-Pitzer               34 Lewis & Clark OR            21
+08-Sep-18 Ave Maria                   15 Lindsey Wilson              44
+08-Sep-18 American Int'l               8 LIU Post                    33
+08-Sep-18 Clarion                     30 Lock Haven                  21
+08-Sep-18 Southern U.                 17 Louisiana Tech              54
+08-Sep-18 Indiana St                   7 Louisville                  31
+08-Sep-18 SE Louisiana                 0 LSU                         31
+08-Sep-18 Lake Erie                   12 Malone                      42
+08-Sep-18 Capital                     50 Marietta                    51
+08-Sep-18 Shaw                        27 Mars Hill                    9
+08-Sep-18 Eastern Kentucky            16 Marshall                    32
+08-Sep-18 Bemidji St                  66 Mary                         0
+08-Sep-18 Centre                      40 Maryville TN                 6
+08-Sep-18 St Scholastica              29 Mayville St                 33
+08-Sep-18 Moravian                    14 McDaniel                     9
+08-Sep-18 Southwestern TX             37 McMurry                      6
+08-Sep-18 Jacksonville FL              3 Mercer                      45
+08-Sep-18 Tiffin                      24 Mercyhurst                  20
+08-Sep-18 Assumption                  49 Merrimack                   19
+08-Sep-18 Savannah St                  0 Miami FL                    77
+08-Sep-18 Western Michigan             3 Michigan                    49
+08-Sep-18 Hillsdale                   30 Michigan Tech               31
+08-Sep-18 Tennessee-Martin            37 Middle Tennessee St         61
+08-Sep-18 West Florida                17 Midwestern St               38
+08-Sep-18 Westminster MO               0 Millsaps                    35
+08-Sep-18 Fresno St                   14 Minnesota                   21
+08-Sep-18 St Cloud St                 44 Minnesota-Crookston         14
+08-Sep-18 Minn St-Moorhead             7 Minnesota-Duluth            60
+08-Sep-18 Southern Illinois           41 Mississippi                 76
+08-Sep-18 SW Baptist                   9 Mississippi College         34
+08-Sep-18 Wyoming                     13 Missouri                    40
+08-Sep-18 Lindenwood                  51 Missouri Southern           13
+08-Sep-18 Wartburg                    18 Monmouth IL                 24
+08-Sep-18 Hampton                     28 Monmouth NJ                 56
+08-Sep-18 Drake                       16 Montana                     48
+08-Sep-18 Eastern Oregon              17 Montana Tech                24
+08-Sep-18 Montana St-Northern          3 Montana-Western             55
+08-Sep-18 Salve Regina                14 Montclair St                37
+08-Sep-18 Mt St Joseph                19 Morehead St                 48
+08-Sep-18 Dickinson                    3 Muhlenberg                  14
+08-Sep-18 Memphis                     21 Navy                        22
+08-Sep-18 Colorado                    33 Nebraska                    28
+08-Sep-18 Colgate                     10 New Hampshire                3
+08-Sep-18 Frostburg St                47 New Jersey                   7
+08-Sep-18 Adams St                    37 New Mexico Highlands        65
+08-Sep-18 James Madison               17 Norfolk St                   0
+08-Sep-18 Gardner-Webb                 6 North Carolina A&T          45
+08-Sep-18 St Augustine's              14 North Carolina Central      51
+08-Sep-18 Georgia St                   7 North Carolina St           41
+08-Sep-18 Lenoir-Rhyne                51 North Greenville            24
+08-Sep-18 Incarnate Word              16 North Texas                 58
+08-Sep-18 Eastern Washington          31 Northern Arizona            26
+08-Sep-18 Utah                        17 Northern Illinois            6
+08-Sep-18 Texas-Permian Basin         22 Northern Michigan           27
+08-Sep-18 Duke                        21 Northwestern                 7
+08-Sep-18 Grambling St                 7 Northwestern St             34
+08-Sep-18 Missouri S&T                27 Northwood                   16
+08-Sep-18 Ball St                     16 Notre Dame                  24
+08-Sep-18 Ashland                     17 Ohio Dominican              24
+08-Sep-18 Muskingum                   14 Ohio Northern               42
+08-Sep-18 Rutgers                      3 Ohio State                  52
+08-Sep-18 UCLA                        21 Oklahoma                    49
+08-Sep-18 SE Oklahoma St              28 Oklahoma Baptist            34
+08-Sep-18 South Alabama               13 Oklahoma St                 55
+08-Sep-18 Florida Int'l               28 Old Dominion                20
+08-Sep-18 Concordia IL                25 Olivet                      52
+08-Sep-18 Siena Heights               16 Olivet Nazarene              7
+08-Sep-18 Portland St                 14 Oregon                      62
+08-Sep-18 Southern Utah               25 Oregon St                   48
+08-Sep-18 St Mary KS                  27 Ottawa KS                   29
+08-Sep-18 SW Oklahoma St               8 Ouachita Baptist            41
+08-Sep-18 New Haven                   36 Pace                        10
+08-Sep-18 Dubuque                     21 Pacific OR                  10
+08-Sep-18 Penn State                  51 Pittsburgh                   6
+08-Sep-18 Edward Waters               17 Point U.                    10
+08-Sep-18 Crown                       14 Presentation                42
+08-Sep-18 Redlands                    28 Puget Sound                 21
+08-Sep-18 Eastern Michigan            20 Purdue                      19
+08-Sep-18 Kentucky Wesleyan           24 Quincy                      31
+08-Sep-18 Averett                     14 Randolph-Macon              24
+08-Sep-18 Georgetown KY               21 Reinhardt                   45
+08-Sep-18 Albany NY                   26 Rhode Island                45
+08-Sep-18 Fordham                      7 Richmond                    52
+08-Sep-18 Finlandia                    0 Ripon                       70
+08-Sep-18 Marian IN                   51 Robert Morris IL             7
+08-Sep-18 Virginia St                 19 Robert Morris PA            22
+08-Sep-18 Carnegie Mellon             31 Rochester                    7
+08-Sep-18 Martin Luther               28 Rockford                    24
+08-Sep-18 Dickinson St                10 Rocky Mountain              21
+08-Sep-18 Rhodes                      43 Rose-Hulman                 19
+08-Sep-18 WPI                         14 RPI                         25
+08-Sep-18 Prairie View A&M            32 Sam Houston St              41
+08-Sep-18 Sacramento St               14 San Diego St                28
+08-Sep-18 Dayton                      21 SE Missouri St              40
+08-Sep-18 Washington and Lee          47 Sewanee                     14
+08-Sep-18 North Carolina Wesleyan     21 Shenandoah                  59
+08-Sep-18 Slippery Rock               21 Shippensburg                25
+08-Sep-18 Tusculum                    61 Shorter                     14
+08-Sep-18 Georgia                     41 South Carolina              17
+08-Sep-18 Northern Colorado           28 South Dakota                43
+08-Sep-18 Montana St                  14 South Dakota St             45
+08-Sep-18 Western St CO               21 South Dakota Tech           38
+08-Sep-18 Georgia Tech                38 South Florida               49
+08-Sep-18 Louisiana-Monroe            21 Southern Miss               20
+08-Sep-18 East Central OK             20 Southern Nazarene           45
+08-Sep-18 Coll of Idaho               28 Southern Oregon             35
+08-Sep-18 Rowan                       20 Southern Virginia           17
+08-Sep-18 Sterling                    43 Southwestern KS             20
+08-Sep-18 Stonehill                   57 St Anselm                   54
+08-Sep-18 St Francis IN               49 St Francis IL               19
+08-Sep-18 Delaware St                 14 St Francis PA               45
+08-Sep-18 Norwich                      7 St Lawrence                 40
+08-Sep-18 Luther                      29 St Olaf                     34
+08-Sep-18 Missouri Baptist             7 St Xavier                   34
+08-Sep-18 Southern Cal                 3 Stanford                    17
+08-Sep-18 Waldorf                     34 Stetson                     63
+08-Sep-18 Bryant                      21 Stony Brook                 50
+08-Sep-18 Johns Hopkins               35 Susquehanna                 37
+08-Sep-18 Wayne St NE                 23 SW Minnesota St             14
+08-Sep-18 Wagner                      10 Syracuse                    62
+08-Sep-18 Texas Wesleyan              10 TAMU-Kingsville             52
+08-Sep-18 Butler                      31 Taylor                      17
+08-Sep-18 Buffalo                     36 Temple                      29
+08-Sep-18 East Tennessee St            3 Tennessee                   59
+08-Sep-18 Tulsa                       21 Texas                       28
+08-Sep-18 Clemson                     28 Texas A&M                   26
+08-Sep-18 Hendrix                     14 Texas Lutheran              19
+08-Sep-18 Texas Southern              20 Texas St-San Marcos         36
+08-Sep-18 Lamar                        0 Texas Tech                  77
+08-Sep-18 Baylor                      37 Texas-San Antonio           20
+08-Sep-18 Chattanooga                 29 The Citadel                 28
+08-Sep-18 Bluffton                    13 Trine                       34
+08-Sep-18 Hardin-Simmons              42 Trinity TX                  33
+08-Sep-18 Florida A&M                  7 Troy                        59
+08-Sep-18 Morningside                 35 Truman St                   17
+08-Sep-18 Nicholls St                 17 Tulane                      42
+08-Sep-18 Albany St GA                 0 Tuskegee                    20 Phenix City AL
+08-Sep-18 Husson                      47 U of New England             7
+08-Sep-18 San Diego                   21 UC-Davis                    54
+08-Sep-18 Delaware Valley             52 UMass-Dartmouth             21
+08-Sep-18 Appalachian St              45 UNC-Charlotte                9
+08-Sep-18 Elizabeth City St            6 UNC-Pembroke                51
+08-Sep-18 UTEP                        24 UNLV                        52
+08-Sep-18 Gettysburg                   7 Ursinus                     42
+08-Sep-18 New Mexico St               13 Utah St                     60
+08-Sep-18 Catholic                    21 Utica                       45
+08-Sep-18 St Norbert                  23 UW-Eau Claire               30
+08-Sep-18 Concordia-Moorhead           6 UW-Whitewater               24
+08-Sep-18 Fort Valley St               6 Valdosta St                 55 Waycross GA
+08-Sep-18 Minnesota-Morris             0 Valley City St              48
+08-Sep-18 Nevada                      10 Vanderbilt                  41
+08-Sep-18 William & Mary              17 Virginia Tech               62
+08-Sep-18 Carson-Newman               33 Virginia Union              29
+08-Sep-18 UW-Stevens Point            13 Wabash                      16
+08-Sep-18 Towson                      20 Wake Forest                 51
+08-Sep-18 Saginaw Valley St           41 Walsh                       10
+08-Sep-18 Kentucky Christian          41 Warner U.                   34
+08-Sep-18 Thiel                        0 Wash & Jeff                 55
+08-Sep-18 North Dakota                 3 Washington                  45
+08-Sep-18 San José St                  0 Washington St               31
+08-Sep-18 Austin                      14 Wayland Baptist             24
+08-Sep-18 Westminster PA              27 Waynesburg                  12
+08-Sep-18 Gannon                       7 West Chester                31
+08-Sep-18 Limestone                   14 West Georgia                42
+08-Sep-18 OK Panhandle St              7 West Texas A&M              42
+08-Sep-18 Youngstown St               17 West Virginia               52
+08-Sep-18 Virginia-Wise               12 West Virginia St            33
+08-Sep-18 Maine                       31 Western Kentucky            28
+08-Sep-18 Westfield St                23 Western New England         31
+08-Sep-18 Central Washington          50 Western Oregon              17
+08-Sep-18 Lycoming                    33 Widener                     19
+08-Sep-18 TAMU-Commerce               27 William Jewell              17
+08-Sep-18 FDU-Florham                 31 William Paterson            17
+08-Sep-18 Missouri Valley              0 William Penn                42
+08-Sep-18 Fayetteville St             13 Wingate                     27
+08-Sep-18 Sioux Falls                 15 Winona St                   16
+08-Sep-18 Catawba                     34 Winston-Salem St             7
+08-Sep-18 New Mexico                  14 Wisconsin                   45
+08-Sep-18 Lawrence Tech               30 Wisconsin Lutheran          22
+08-Sep-18 VMI                         14 Wofford                     59
+08-Sep-18 Allegheny                   27 Wooster                     20
