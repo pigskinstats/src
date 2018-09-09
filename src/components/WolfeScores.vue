@@ -11,9 +11,9 @@
       <tr v-for="game in games.items">
         <td>{{ game.date.toString() }}</td>
         <td :class="teamStyle(game.homeTeam, game.awayTeam)">{{ game.homeTeam.name }}</td>
-        <td :class="teamStyle(game.homeTeam, game.awayTeam)">{{ game.homeTeam.score }}</td>
+        <td :class="teamStyle(game.homeTeam, game.awayTeam)" class="number">{{ nullOr(game.homeTeam.score, '-') }}</td>
         <td :class="teamStyle(game.awayTeam, game.homeTeam)">{{ game.awayTeam.name }}</td>
-        <td :class="teamStyle(game.awayTeam, game.homeTeam)">{{ game.awayTeam.score }}</td>
+        <td :class="teamStyle(game.awayTeam, game.homeTeam)" class="number">{{ nullOr(game.awayTeam.score, '-') }}</td>
       </tr>
     </table>
     <div class="text-danger" v-if="error"><b>Error:</b> {{ error }}</div>
@@ -21,15 +21,17 @@
 </template>
 
 <script>
-import api from '../modules/api';
-import parser from '../modules/wolfe-parser';
-import { Paginator } from '../modules/pagination';
+import api from '@/modules/api';
+import parser from '@/modules/wolfe-parser';
+import { nullOr } from '@/modules/util';
+import { Paginator } from '@/modules/pagination';
 
 export default {
   data: () => {
     const result = {
       games: new Paginator([]),
       error: '',
+      nullOr: nullOr,
       teamStyle: (currentTeam, otherTeam) => {
         if(currentTeam.score > otherTeam.score) {
           return { 'winner': true };
@@ -62,6 +64,14 @@ export default {
 
 .score-table tr:nth-child(odd) {
   background-color: #ccc;
+}
+
+.score-table tr td {
+  padding: 4px;
+}
+
+.number {
+  text-align: right;
 }
 
 .winner {

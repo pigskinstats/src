@@ -1,6 +1,7 @@
 import { GameDate } from './game-date';
+import { tryNumber } from './util';
 
-const parseRegex = /^(\d+\-[A-Za-z]+\-\d+)\s+(.+?)\s\s+(\d+)\s+(.+?)\s\s+(\d+)/;
+const parseRegex = /^(\d+\-[A-Za-z]+\-\d+)\s+(.+?)\s\s+([^\s]+)\s+(.+?)\s\s+([^\s]+)/;
 
 function parseLine(line) {
   const parsed = parseRegex.exec(line);
@@ -10,11 +11,11 @@ function parseLine(line) {
       date: GameDate.fromWolfeDate(parsed[1]),
       awayTeam: {
         name: parsed[2],
-        score: Number(parsed[3])
+        score: tryNumber(parsed[3])
       },
       homeTeam: {
         name: parsed[4],
-        score: Number(parsed[5])
+        score: tryNumber(parsed[5])
       },
     };
   } catch(e) {
