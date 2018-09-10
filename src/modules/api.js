@@ -1,18 +1,13 @@
-import axios from 'axios';
-
-const Resource = {
-  scores: '/static/wolfe-scores/2018/current.txt',
-};
+import Http from '@/modules/http';
 
 class Api {
-  constructor($http) {
-    this.$http = $http;
+  constructor(http) {
+    this._http = http;
   }
 
   get wolfeScores() {
-    return this.$http.get(Resource.scores, { responseType: 'text', transformResponse: undefined })
-      .then(result => result.data);
+    return this._http.getText('/static/wolfe-scores/2018/current.txt');
   }
 }
 
-export default new Api(axios);
+export default new Api(Http);
