@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Scores</h2>
+    <h2>Games</h2>
     <div>Source: <a href="http://prwolfe.bol.ucla.edu/cfootball/scores.htm">Wolfe Scores</a></div>
     <div align="center" class="buttons">
       <button class="btn" v-on:click="games.back()"><font-awesome-icon icon="angle-left" /> Back</button>
@@ -43,8 +43,8 @@ export default {
       },
     };
 
-    api.wolfeScores.then(r => {
-      result.games = new Paginator(parser.parse(r).sort((a, b) => b.date.unix - a.date.unix));
+    api.getGames().then(games => {
+      result.games = new Paginator(games.sort((a, b) => b.date.unix - a.date.unix));
     }).catch(e => result.error = e);
 
     return result;

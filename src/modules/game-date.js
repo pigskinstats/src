@@ -33,6 +33,10 @@ class GameDate {
     return new GameDate(new Date(wolfeDate));
   }
 
+  static fromIsoDate(isoDate) {
+    return new GameDate(new Date(isoDate));
+  }
+
   get month() {
     return MONTHS[this._date.getMonth()];
   }
