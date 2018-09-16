@@ -10,6 +10,12 @@ ROW_REGEX = re.compile(r'^(.{9}) (.{27}) (.{2}) (.{27}) (.{2}) ?(.*)?$')
 DATE_REGEX = re.compile(r'^(\d+)-(.+)-(\d+)')
 
 
+def try_int(value, default):
+    try:
+        return int(value)
+    except:
+        return default
+
 
 def get_data():
     with open(INPUT, 'r') as f:
@@ -48,9 +54,9 @@ def parse_row(teams, row):
     result = {
         'date': parse_date(matches.group(1).strip()).isoformat(),
         'awayTeam': teams.get_slug(matches.group(2).strip()),
-        'awayScore': matches.group(3).strip(),
+        'awayScore': try_int(matches.group(3).strip(), None),
         'homeTeam': teams.get_slug(matches.group(4).strip()),
-        'homeScore': matches.group(5).strip(),
+        'homeScore': try_int(matches.group(5).strip(), None),
         'neutralLocation': matches.group(6).strip() or None,
     }
     return { k:v for (k,v) in result.items() if v is not None }
