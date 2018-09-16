@@ -11,9 +11,9 @@
       <tr v-for="game in games.items">
         <td>{{ game.date.toString() }}</td>
         <td :class="teamStyle(game.homeTeam, game.awayTeam)">{{ game.homeTeam.name }}</td>
-        <td :class="teamStyle(game.homeTeam, game.awayTeam)" class="number">{{ nullOr(game.homeTeam.score, '-') }}</td>
+        <td :class="teamStyle(game.homeTeam, game.awayTeam)" class="number">{{ unsetOr(game.homeTeam.score, '-') }}</td>
         <td :class="teamStyle(game.awayTeam, game.homeTeam)">{{ game.awayTeam.name }}</td>
-        <td :class="teamStyle(game.awayTeam, game.homeTeam)" class="number">{{ nullOr(game.awayTeam.score, '-') }}</td>
+        <td :class="teamStyle(game.awayTeam, game.homeTeam)" class="number">{{ unsetOr(game.awayTeam.score, '-') }}</td>
       </tr>
     </table>
     <div class="text-danger" v-if="error"><b>Error:</b> {{ error }}</div>
@@ -22,7 +22,7 @@
 
 <script>
 import api from '@/modules/api';
-import { nullOr } from '@/modules/util';
+import { unsetOr } from '@/modules/util';
 import { Paginator } from '@/modules/pagination';
 
 export default {
@@ -30,7 +30,7 @@ export default {
     const result = {
       games: new Paginator([]),
       error: '',
-      nullOr: nullOr,
+      unsetOr: unsetOr,
       teamStyle: (currentTeam, otherTeam) => {
         if(currentTeam.score > otherTeam.score) {
           return { 'winner': true };

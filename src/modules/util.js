@@ -8,3 +8,7 @@ export function tryNumber(value) {
 export function nullOr(value, defaultValue) {
   return value !== null ? value : defaultValue;
 }
+
+export function unsetOr(value, defaultValue) {
+  return value !== null && value !== undefined ? value : defaultValue;
+}
