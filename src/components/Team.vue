@@ -1,15 +1,14 @@
 <template>
   <div>
-    <h2>Teams</h2>
+    <h2>Team: {{ team.name }}</h2>
     <div>Source: <a href="http://prwolfe.bol.ucla.edu/cfootball/scores.htm">Wolfe Scores</a></div>
-    <div align="center" class="buttons">
-      <button class="btn" v-on:click="teams.back()"><font-awesome-icon icon="angle-left" /> Back</button>
-      <span>Page {{ teams.page }} of {{ teams.pages }}</span>
-      <button class="btn" v-on:click="teams.forward()">Forward <font-awesome-icon icon="angle-right" /></button>
-    </div>
     <table cellspacing="10" border="1" class="score-table">
-      <tr v-for="team in teams.items">
-        <td><router-link :to="{ name: 'Team', params: { id: team.slug } }">{{ team.name }}</router-link></td>
+      <tr v-for="game in team.games">
+        <td>{{ game.date.toString() }}</td>
+        <td>{{ game.homeTeam.name }}</td>
+        <td>{{ game.homeTeam.score }}</td>
+        <td>{{ game.awayTeam.name }}</td>
+        <td>{{ game.awayTeam.score }}</td>
       </tr>
     </table>
     <div class="text-danger" v-if="error"><b>Error:</b> {{ error }}</div>
@@ -19,17 +18,16 @@
 <script>
 import api from '@/modules/api';
 import { unsetOr, alphaSort } from '@/modules/util';
-import { Paginator } from '@/modules/pagination';
 
 export default {
-  data: () => {
+  data: function() {
     const result = {
-      teams: new Paginator([]),
+      team: {},
       error: '',
     };
 
-    api.getTeams().then(teams => {
-      result.teams = new Paginator(teams.sort(alphaSort(x => x.name)));
+    api.getTeam(this.$route.params.id).then(team => {
+      result.team = team;
     }).catch(e => result.error = e);
 
     return result;

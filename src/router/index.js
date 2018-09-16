@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import WolfeScores from '@/components/WolfeScores';
 import Teams from '@/components/Teams';
+import Team from '@/components/Team';
 
 Vue.use(Router)
 
@@ -21,6 +22,11 @@ export default new Router({
       path: '/teams',
       name: 'Teams',
       component: Teams
+    },
+    {
+      path: '/teams/:id',
+      name: 'Team',
+      component: Team
     },
   ]
 })
