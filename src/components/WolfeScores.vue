@@ -2,22 +2,22 @@
   <div>
     <h2>Games</h2>
     <div>Source: <a href="http://prwolfe.bol.ucla.edu/cfootball/scores.htm">Wolfe Scores</a></div>
-    <div align="center" class="buttons">
+    <div align="center" class="data-table-controls">
       <button class="btn" v-on:click="games.back()"><font-awesome-icon icon="angle-left" /> Back</button>
       <span>Page {{ games.page }} of {{ games.pages }}</span>
       <button class="btn" v-on:click="games.forward()">Forward <font-awesome-icon icon="angle-right" /></button>
     </div>
-    <table cellspacing="10" border="1" class="score-table">
+    <table cellspacing="10" border="1" class="data-table">
       <tr v-for="game in games.items">
         <td>{{ game.date.toString() }}</td>
         <td :class="teamStyle(game.homeTeam, game.awayTeam)">
           <router-link :to="{ name: 'Team', params: { id: game.homeTeam.slug } }">{{ game.homeTeam.name }}</router-link>
         </td>
-        <td :class="teamStyle(game.homeTeam, game.awayTeam)" class="number">{{ unsetOr(game.homeTeam.score, '-') }}</td>
+        <td :class="teamStyle(game.homeTeam, game.awayTeam)" class="number-cell">{{ unsetOr(game.homeTeam.score, '-') }}</td>
         <td :class="teamStyle(game.awayTeam, game.homeTeam)">
           <router-link :to="{ name: 'Team', params: { id: game.awayTeam.slug } }">{{ game.awayTeam.name }}</router-link>
         </td>
-        <td :class="teamStyle(game.awayTeam, game.homeTeam)" class="number">{{ unsetOr(game.awayTeam.score, '-') }}</td>
+        <td :class="teamStyle(game.awayTeam, game.homeTeam)" class="number-cell">{{ unsetOr(game.awayTeam.score, '-') }}</td>
       </tr>
     </table>
     <div class="text-danger" v-if="error"><b>Error:</b> {{ error }}</div>
@@ -56,27 +56,6 @@ export default {
 </script>
 
 <style scoped>
-.buttons {
-  margin: 10px;
-  text-align: center;
-}
-
-.score-table {
-  width: 100%;
-}
-
-.score-table tr:nth-child(odd) {
-  background-color: #ccc;
-}
-
-.score-table tr td {
-  padding: 4px;
-}
-
-.number {
-  text-align: right;
-}
-
 .winner {
   background-color: #cec;
 }

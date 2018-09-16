@@ -2,12 +2,12 @@
   <div>
     <h2>Teams</h2>
     <div>Source: <a href="http://prwolfe.bol.ucla.edu/cfootball/scores.htm">Wolfe Scores</a></div>
-    <div align="center" class="buttons">
+    <div align="center" class="data-table-controls">
       <button class="btn" v-on:click="teams.back()"><font-awesome-icon icon="angle-left" /> Back</button>
       <span>Page {{ teams.page }} of {{ teams.pages }}</span>
       <button class="btn" v-on:click="teams.forward()">Forward <font-awesome-icon icon="angle-right" /></button>
     </div>
-    <table cellspacing="10" border="1" class="score-table">
+    <table cellspacing="10" border="1" class="data-table">
       <tr v-for="team in teams.items">
         <td><router-link :to="{ name: 'Team', params: { id: team.slug } }">{{ team.name }}</router-link></td>
       </tr>
@@ -38,32 +38,4 @@ export default {
 </script>
 
 <style scoped>
-.buttons {
-  margin: 10px;
-  text-align: center;
-}
-
-.score-table {
-  width: 100%;
-}
-
-.score-table tr:nth-child(odd) {
-  background-color: #ccc;
-}
-
-.score-table tr td {
-  padding: 4px;
-}
-
-.number {
-  text-align: right;
-}
-
-.winner {
-  background-color: #cec;
-}
-
-.loser {
-  background-color: #fff;
-}
 </style>

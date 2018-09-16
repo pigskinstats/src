@@ -2,7 +2,7 @@
   <div>
     <h2>Team: {{ team.name }} ({{ record }})</h2>
     <div>Source: <a href="http://prwolfe.bol.ucla.edu/cfootball/scores.htm">Wolfe Scores</a></div>
-    <table cellspacing="10" border="1" class="score-table">
+    <table cellspacing="10" border="1" class="data-table">
       <tr v-for="game in team.games">
         <td>{{ game.date.toString() }}</td>
         <td>{{ game.homeTeam.name }}</td>
@@ -17,7 +17,6 @@
 
 <script>
 import api from '@/modules/api';
-import { unsetOr, alphaSort } from '@/modules/util';
 
 export default {
   data: function() {
@@ -38,27 +37,6 @@ export default {
 </script>
 
 <style scoped>
-.buttons {
-  margin: 10px;
-  text-align: center;
-}
-
-.score-table {
-  width: 100%;
-}
-
-.score-table tr:nth-child(odd) {
-  background-color: #ccc;
-}
-
-.score-table tr td {
-  padding: 4px;
-}
-
-.number {
-  text-align: right;
-}
-
 .winner {
   background-color: #cec;
 }
