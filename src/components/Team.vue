@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Team: {{ team.name }}</h2>
+    <h2>Team: {{ team.name }} ({{ record }})</h2>
     <div>Source: <a href="http://prwolfe.bol.ucla.edu/cfootball/scores.htm">Wolfe Scores</a></div>
     <table cellspacing="10" border="1" class="score-table">
       <tr v-for="game in team.games">
@@ -23,11 +23,13 @@ export default {
   data: function() {
     const result = {
       team: {},
+      record: '',
       error: '',
     };
 
     api.getTeam(this.$route.params.id).then(team => {
       result.team = team;
+      result.record = `${team.record.wins}-${team.record.losses}`;
     }).catch(e => result.error = e);
 
     return result;

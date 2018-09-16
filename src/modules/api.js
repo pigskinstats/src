@@ -11,6 +11,21 @@ function viewGameMapper(teams) {
   };
 }
 
+function recordKey(game, slug) {
+  const getKey = (gameSlug) => gameSlug === slug ? 'this' : 'other';
+  const scores = {};
+  scores[getKey(game.homeTeam)] = game.homeScore;
+  scores[getKey(game.awayTeam)] = game.awayScore;
+  if(scores.this === undefined) {
+    // no score available
+    return undefined;
+  }
+  if(scores.this === scores.away) {
+    return 'tie';
+  }
+  return scores.this > scores.other ? 'wins' : 'losses';
+}
+
 class Api {
   constructor(http) {
     this._http = http;
@@ -31,8 +46,21 @@ class Api {
 
   async getTeam(slug) {
     const [teams, games] = await Promise.all([this._rawTeams, this._rawGames]);
-    const teamGames = games.filter(({ awayTeam, homeTeam }) => [homeTeam, awayTeam].includes(slug)).map(viewGameMapper(teams));
-    return Object.assign({}, teams[slug], { games: teamGames });
+    const teamGames = games.filter(({ awayTeam, homeTeam }) => [homeTeam, awayTeam].includes(slug));
+
+    const record = teamGames.reduce((result, game) => { 
+      const key = recordKey(game, slug);
+      if(key) {
+        result[key] += 1;
+      }
+      return result;
+    }, { wins: 0, losses: 0 });
+
+    return Object.assign({},
+      teams[slug],
+      { games: teamGames.map(viewGameMapper(teams)) },
+      { record: record }
+    );
   }
 
   async getGames() {
