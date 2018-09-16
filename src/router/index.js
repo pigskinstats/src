@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import WolfeScores from '@/components/WolfeScores';
+import Games from '@/components/Games';
 import Teams from '@/components/Teams';
 import Team from '@/components/Team';
 
@@ -11,12 +11,12 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: WolfeScores
+      component: Games
     },
     {
       path: '/scores',
-      name: 'WolfeScores',
-      component: WolfeScores
+      name: 'Games',
+      component: Games
     },
     {
       path: '/teams',
