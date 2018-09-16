@@ -715,3 +715,347 @@ Date      Away Team                      Home Team                      or semi-
 08-Sep-18 Lawrence Tech               30 Wisconsin Lutheran          22
 08-Sep-18 VMI                         14 Wofford                     59
 08-Sep-18 Allegheny                   27 Wooster                     20
+09-Sep-18 Southern Arkansas           28 Harding                     23
+09-Sep-18 St Ambrose                  26 Lindenwood-Belleville        0
+12-Sep-18 Coastal Carolina            58 Campbell                    21
+12-Sep-18 Catholic                     6 Randolph-Macon              41
+13-Sep-18 West Liberty                10 Charleston WV               24
+13-Sep-18 Guilford                    61 Davidson                    91
+13-Sep-18 Robert Morris PA             7 James Madison               73
+13-Sep-18 Mars Hill                   27 Lenoir-Rhyne                59
+13-Sep-18 Virginia U-Lynchburg        14 Newberry                    27
+13-Sep-18 St Francis PA               27 Richmond                    35
+13-Sep-18 Minnesota-Duluth            41 St Cloud St                 17
+13-Sep-18 Old Dominion                25 UNC-Charlotte               28
+13-Sep-18 Tennessee Tech              12 Utah St                     73
+13-Sep-18 Boston College              41 Wake Forest                 34
+14-Sep-18 St Anselm                    3 Assumption                  66
+14-Sep-18 Western Carolina            28 Gardner-Webb                10
+14-Sep-18 St Andrews                   7 Georgetown KY               24
+14-Sep-18 Georgia St                  22 Memphis                     59
+14-Sep-18 Coast Guard                 27 Nichols                     20
+14-Sep-18 Merchant Marine             34 SUNY-Maritime               21
+14-Sep-18 Limestone                   10 Tusculum                    37
+14-Sep-18 East Tennessee St           27 VMI                         24
+14-Sep-18 New Jersey                   0 Wesley                      62
+14-Sep-18 UMass-Dartmouth             28 Westfield St                 9
+15-Sep-18 Black Hills St              xx Adams St                    xx
+15-Sep-18 Tulane                      xx Alabama-Birmingham          xx
+15-Sep-18 Morgan St                   xx Albany NY                   xx
+15-Sep-18 West Georgia                xx Albany St GA                xx
+15-Sep-18 Stevenson                   xx Albright                    xx
+15-Sep-18 Texas Southern              xx Alcorn St                   xx
+15-Sep-18 Tiffin                      xx Alderson Broaddus           xx
+15-Sep-18 Ithaca                      xx Alfred                      xx
+15-Sep-18 Rochester                   xx Alfred St                   xx
+15-Sep-18 FDU-Florham                 xx Alvernia                    xx
+15-Sep-18 Pace                        xx American Int'l              xx
+15-Sep-18 Franklin                    xx Anderson                    xx
+15-Sep-18 TAMU-Kingsville             xx Angelo St                   xx
+15-Sep-18 Southern Miss               xx Appalachian St              xx
+15-Sep-18 Southern Utah               xx Arizona                     xx
+15-Sep-18 North Texas                 xx Arkansas                    xx
+15-Sep-18 Hawai`i                     xx Army                        xx
+15-Sep-18 LSU                         xx Auburn                      xx
+15-Sep-18 Concordia-Moorhead          xx Augsburg                    xx
+15-Sep-18 Adrian                      xx Aurora                      xx
+15-Sep-18 Cumberland TN               xx Ave Maria                   xx
+15-Sep-18 Culver-Stockton             xx Baker                       xx
+15-Sep-18 Mount Union                 xx Baldwin Wallace             xx
+15-Sep-18 Amherst                     xx Bates                       xx
+15-Sep-18 Duke                        xx Baylor                      xx
+15-Sep-18 WPI                         xx Becker                      xx
+15-Sep-18 Texas Lutheran              xx Belhaven                    xx
+15-Sep-18 Minnesota-Crookston         xx Bemidji St                  xx
+15-Sep-18 Olivet                      xx Benedictine IL              xx
+15-Sep-18 Merrimack                   xx Bentley                     xx
+15-Sep-18 Ottawa KS                   xx Bethany KS                  xx
+15-Sep-18 Waynesburg                  xx Bethany WV                  xx
+15-Sep-18 Avila                       xx Bethel KS                   xx
+15-Sep-18 Keiser                      xx Bethel TN                   xx
+15-Sep-18 Williams                    xx Bowdoin                     xx
+15-Sep-18 Eastern Kentucky            xx Bowling Green               xx
+15-Sep-18 Hastings                    xx Briar Cliff                 xx
+15-Sep-18 North Carolina Wesleyan     xx Bridgewater VA              xx
+15-Sep-18 St Lawrence                 xx Brockport St                xx
+15-Sep-18 Marist                      xx Bryant                      xx
+15-Sep-18 Eastern Michigan            xx Buffalo                     xx
+15-Sep-18 Princeton                   xx Butler                      xx
+15-Sep-18 Brown                       xx Cal Poly SLO                xx
+15-Sep-18 Idaho St                    xx California                  xx
+15-Sep-18 Heidelberg                  xx Capital                     xx
+15-Sep-18 St Olaf                     xx Carleton                    xx
+15-Sep-18 Carthage                    xx Carroll WI                  xx
+15-Sep-18 Wingate                     xx Carson-Newman               xx
+15-Sep-18 Columbia                    xx Central Conn St             xx
+15-Sep-18 Luther                      xx Central IA                  xx
+15-Sep-18 Missouri Western            xx Central Missouri            xx
+15-Sep-18 Humboldt St                 xx Central Washington          xx
+15-Sep-18 Fort Lewis                  xx Chadron St                  xx
+15-Sep-18 Alabama A&M                 xx Cincinnati                  xx
+15-Sep-18 Southeastern FL             xx Cincinnati Christian U.     xx
+15-Sep-18 Lincoln PA                  xx Clarion                     xx
+15-Sep-18 Tuskegee                    xx Clark Atlanta               xx
+15-Sep-18 Georgia Southern            xx Clemson                     xx
+15-Sep-18 Dubuque                     xx Coe                         xx
+15-Sep-18 Trinity CT                  xx Colby                       xx
+15-Sep-18 New Hampshire               xx Colorado                    xx
+15-Sep-18 Colorado St-Pueblo          xx Colorado Mines              xx
+15-Sep-18 Albion                      xx Concordia IL                xx
+15-Sep-18 Olivet Nazarene             xx Concordia MI                xx
+15-Sep-18 Alma                        xx Concordia WI                xx
+15-Sep-18 Rhode Island                xx Connecticut                 xx
+15-Sep-18 St Scholastica              xx Crown                       xx
+15-Sep-18 Campbellsville              xx Cumberlands KY              xx
+15-Sep-18 Anna Maria                  xx Curry                       xx
+15-Sep-18 Morningside                 xx Dakota Wesleyan             xx
+15-Sep-18 Georgetown DC               xx Dartmouth                   xx
+15-Sep-18 Cornell NY                  xx Delaware                    xx
+15-Sep-18 Wilkes                      xx Delaware Valley             xx
+15-Sep-18 Allegheny                   xx Denison                     xx
+15-Sep-18 Hiram                       xx DePauw                      xx
+15-Sep-18 Gettysburg                  xx Dickinson                   xx
+15-Sep-18 New Mexico Highlands        xx Dixie St                    xx
+15-Sep-18 Doane                       xx Dordt                       xx
+15-Sep-18 Missouri S&T                xx Drake                       xx
+15-Sep-18 Dayton                      xx Duquesne                    xx
+15-Sep-18 Bluffton                    xx Earlham                     xx
+15-Sep-18 Arkansas-Monticello         xx East Central OK             xx
+15-Sep-18 Southwestern TX             xx East Texas Baptist          xx
+15-Sep-18 Indiana St                  xx Eastern Illinois            xx
+15-Sep-18 TAMU-Commerce               xx Eastern New Mexico          xx
+15-Sep-18 East Stroudsburg            xx Edinboro                    xx
+15-Sep-18 Augustana IL                xx Elmhurst                    xx
+15-Sep-18 MIT                         xx Endicott                    xx
+15-Sep-18 Finlandia                   xx Eureka                      xx
+15-Sep-18 Union KY                    xx Faulkner                    xx
+15-Sep-18 William Jewell              xx Findlay                     xx
+15-Sep-18 Worcester St                xx Fitchburg St                xx
+15-Sep-18 Colorado St                 xx Florida                     xx
+15-Sep-18 Jackson St                  xx Florida A&M                 xx
+15-Sep-18 Bethune-Cookman             xx Florida Atlantic            xx
+15-Sep-18 Massachusetts               xx Florida Int'l               xx
+15-Sep-18 Delta St                    xx Florida Tech                xx
+15-Sep-18 Stony Brook                 xx Fordham                     xx
+15-Sep-18 Washburn                    xx Fort Hays St                xx
+15-Sep-18 Bridgewater St MA           xx Framingham St               xx
+15-Sep-18 Tabor                       xx Friends                     xx
+15-Sep-18 Kutztown                    xx Gannon                      xx
+15-Sep-18 Western Carolina            xx Gardner-Webb                xx
+15-Sep-18 Middle Tennessee St         xx Georgia                     xx
+15-Sep-18 Missouri Valley             xx Graceland                   xx
+15-Sep-18 Central Methodist           xx Grand View                  xx
+15-Sep-18 Northwestern MN             xx Greenville                  xx
+15-Sep-18 Case Western Reserve        xx Grove City                  xx
+15-Sep-18 St John's MN                xx Gustavus Adolphus           xx
+15-Sep-18 Tufts                       xx Hamilton                    xx
+15-Sep-18 San Diego                   xx Harvard                     xx
+15-Sep-18 Centre                      xx Hendrix                     xx
+15-Sep-18 Yale                        xx Holy Cross                  xx
+15-Sep-18 Abilene Christian           xx Houston Baptist             xx
+15-Sep-18 Savannah St                 xx Howard                      xx
+15-Sep-18 McMurry                     xx Howard Payne                xx
+15-Sep-18 Western New England         xx Husson                      xx
+15-Sep-18 South Florida               xx Illinois                    xx Chicago IL
+15-Sep-18 Wheaton                     xx Illinois Wesleyan           xx
+15-Sep-18 Stephen F. Austin           xx Incarnate Word              xx
+15-Sep-18 Ball St                     xx Indiana                     xx
+15-Sep-18 Trinity Bible               xx Indiana Wesleyan            xx
+15-Sep-18 Northern Iowa               xx Iowa                        xx
+15-Sep-18 Oklahoma                    xx Iowa St                     xx
+15-Sep-18 Walsh                       xx Jacksonville FL             xx
+15-Sep-18 Concordia NE                xx Jamestown                   xx
+15-Sep-18 Otterbein                   xx John Carroll                xx
+15-Sep-18 Virginia Union              xx Johnson C. Smith            xx
+15-Sep-18 Ursinus                     xx Juniata                     xx
+15-Sep-18 Rutgers                     xx Kansas                      xx
+15-Sep-18 Texas-San Antonio           xx Kansas St                   xx
+15-Sep-18 Alabama St                  xx Kennesaw St                 xx
+15-Sep-18 Murray St                   xx Kentucky                    xx
+15-Sep-18 Kentucky St                 xx Kentucky Wesleyan           xx
+15-Sep-18 Wabash                      xx Kenyon                      xx
+15-Sep-18 Hartwick                    xx King's PA                   xx
+15-Sep-18 Puget Sound                 xx La Verne                    xx
+15-Sep-18 Monmouth NJ                 xx Lafayette                   xx
+15-Sep-18 Trine                       xx Lakeland                    xx
+15-Sep-18 Northwestern St             xx Lamar                       xx
+15-Sep-18 Livingstone                 xx Lane                        xx
+15-Sep-18 UW-Oshkosh                  xx Lincoln MO                  xx
+15-Sep-18 Central Oklahoma            xx Lindenwood                  xx
+15-Sep-18 St Xavier                   xx Lindenwood-Belleville       xx
+15-Sep-18 Pikeville                   xx Lindsey Wilson              xx
+15-Sep-18 Redlands                    xx Linfield                    xx
+15-Sep-18 Indiana PA                  xx Lock Haven                  xx
+15-Sep-18 Hardin-Simmons              xx Louisiana College           xx
+15-Sep-18 Western Kentucky            xx Louisville                  xx
+15-Sep-18 Lebanon Valley              xx Lycoming                    xx
+15-Sep-18 Arizona Christian           xx Lyon                        xx
+15-Sep-18 Minnesota-Morris            xx MacMurray                   xx
+15-Sep-18 St John Fisher              xx Malone                      xx
+15-Sep-18 Defiance                    xx Manchester                  xx
+15-Sep-18 Temple                      xx Maryland                    xx
+15-Sep-18 Maine Maritime              xx Mass Maritime               xx
+15-Sep-18 Franklin & Marshall         xx McDaniel                    xx
+15-Sep-18 Bowie St                    xx McKendree                   xx
+15-Sep-18 Nicholls St                 xx McNeese St                  xx
+15-Sep-18 Southwestern KS             xx McPherson                   xx
+15-Sep-18 Bloomsburg                  xx Mercyhurst                  xx
+15-Sep-18 SMU                         xx Michigan                    xx
+15-Sep-18 Davenport                   xx Michigan Tech               xx
+15-Sep-18 William Penn                xx MidAmerica Nazarene         xx
+15-Sep-18 Fort Valley St              xx Miles                       xx
+15-Sep-18 Slippery Rock               xx Millersville                xx
+15-Sep-18 North Park                  xx Millikin                    xx
+15-Sep-18 Concordia-St Paul           xx Minn St-Mankato             xx
+15-Sep-18 Northern St SD              xx Minn St-Moorhead            xx
+15-Sep-18 Miami OH                    xx Minnesota                   xx
+15-Sep-18 Mary                        xx Minot St                    xx
+15-Sep-18 Widener                     xx Misericordia                xx
+15-Sep-18 Alabama                     xx Mississippi                 xx
+15-Sep-18 Louisiana-Lafayette         xx Mississippi St              xx
+15-Sep-18 Northern Arizona            xx Missouri St                 xx
+15-Sep-18 Wagner                      xx Montana St                  xx
+15-Sep-18 Carroll MT                  xx Montana St-Northern         xx
+15-Sep-18 Rocky Mountain              xx Montana-Western             xx
+15-Sep-18 Southern Virginia           xx Montclair St                xx
+15-Sep-18 Johns Hopkins               xx Moravian                    xx
+15-Sep-18 Austin Peay                 xx Morehead St                 xx
+15-Sep-18 Central St OH               xx Morehouse                   xx
+15-Sep-18 Rose-Hulman                 xx Mt St Joseph                xx
+15-Sep-18 Marietta                    xx Muskingum                   xx
+15-Sep-18 Lehigh                      xx Navy                        xx
+15-Sep-18 Troy                        xx Nebraska                    xx
+15-Sep-18 Emporia St                  xx Nebraska-Kearney            xx
+15-Sep-18 Oregon St                   xx Nevada                      xx
+15-Sep-18 Southern Conn St            xx New Haven                   xx
+15-Sep-18 New Mexico                  xx New Mexico St               xx
+15-Sep-18 Virginia U-Lynchburg        xx Newberry                    xx
+15-Sep-18 Washington MO               xx North Central               xx
+15-Sep-18 North Alabama               xx North Dakota St             xx
+15-Sep-18 Mississippi College         xx North Greenville            xx
+15-Sep-18 Pittsburg St                xx Northeastern St OK          xx
+15-Sep-18 Sacramento St               xx Northern Colorado           xx
+15-Sep-18 Central Michigan            xx Northern Illinois           xx
+15-Sep-18 Grand Valley St             xx Northern Michigan           xx
+15-Sep-18 Akron                       xx Northwestern                xx
+15-Sep-18 Midland U.                  xx Northwestern IA             xx
+15-Sep-18 Ferris St                   xx Northwood                   xx
+15-Sep-18 Castleton                   xx Norwich                     xx
+15-Sep-18 Vanderbilt                  xx Notre Dame                  xx
+15-Sep-18 West Virginia St            xx Notre Dame OH               xx
+15-Sep-18 Missouri Southern           xx NW Missouri St              xx
+15-Sep-18 Henderson St                xx NW Oklahoma St              xx
+15-Sep-18 Wittenberg                  xx Oberlin                     xx
+15-Sep-18 Willamette                  xx Occidental                  xx
+15-Sep-18 Hillsdale                   xx Ohio Dominican              xx
+15-Sep-18 Wilmington                  xx Ohio Northern               xx
+15-Sep-18 Wooster                     xx Ohio Wesleyan               xx
+15-Sep-18 Arkansas Tech               xx Oklahoma Baptist            xx
+15-Sep-18 Boise St                    xx Oklahoma St                 xx
+15-Sep-18 San José St                 xx Oregon                      xx
+15-Sep-18 OK Panhandle St             xx Ottawa AZ                   xx
+15-Sep-18 Claremont-Mudd-Scripps      xx Pacific Lutheran            xx
+15-Sep-18 Cal Lutheran                xx Pacific OR                  xx
+15-Sep-18 Kent St                     xx Penn State                  xx
+15-Sep-18 Bucknell                    xx Pennsylvania                xx
+15-Sep-18 Evangel                     xx Peru St                     xx
+15-Sep-18 Georgia Tech                xx Pittsburgh                  xx
+15-Sep-18 Western Conn St             xx Plymouth St                 xx
+15-Sep-18 Kentucky Christian          xx Point U.                    xx
+15-Sep-18 George Fox                  xx Pomona-Pitzer               xx
+15-Sep-18 Coll of Idaho               xx Portland St                 xx
+15-Sep-18 Missouri                    xx Purdue                      xx
+15-Sep-18 St Francis IL               xx Quincy                      xx
+15-Sep-18 Berry                       xx Rhodes                      xx
+15-Sep-18 St Francis PA               xx Richmond                    xx
+15-Sep-18 Kalamazoo                   xx Rockford                    xx
+15-Sep-18 William Paterson            xx Rowan                       xx
+15-Sep-18 Truman St                   xx Saginaw Valley St           xx
+15-Sep-18 Kean                        xx Salisbury                   xx
+15-Sep-18 Dean                        xx Salve Regina                xx
+15-Sep-18 North Dakota                xx Sam Houston St              xx
+15-Sep-18 Mercer                      xx Samford                     xx
+15-Sep-18 Arizona St                  xx San Diego St                xx
+15-Sep-18 Central Arkansas            xx SE Louisiana                xx
+15-Sep-18 Ouachita Baptist            xx SE Oklahoma St              xx
+15-Sep-18 West Chester                xx Seton Hill                  xx
+15-Sep-18 Austin                      xx Sewanee                     xx
+15-Sep-18 Hobart                      xx Shenandoah                  xx
+15-Sep-18 Glenville St                xx Shepherd                    xx
+15-Sep-18 California PA               xx Shippensburg                xx
+15-Sep-18 Robert Morris IL            xx Siena Heights               xx
+15-Sep-18 Nebraska Wesleyan           xx Simpson                     xx
+15-Sep-18 SW Minnesota St             xx Sioux Falls                 xx
+15-Sep-18 Texas St-San Marcos         xx South Alabama               xx
+15-Sep-18 Arkansas-Pine Bluff         xx South Dakota St             xx
+15-Sep-18 Simon Fraser                xx South Dakota Tech           xx
+15-Sep-18 SE Missouri St              xx Southern Illinois           xx
+15-Sep-18 Harding                     xx Southern Nazarene           xx
+15-Sep-18 Montana Tech                xx Southern Oregon             xx
+15-Sep-18 Langston                    xx Southern U.                 xx
+15-Sep-18 Union NY                    xx Springfield                 xx
+15-Sep-18 St Ambrose                  xx St Francis IN               xx
+15-Sep-18 Hamline                     xx St Thomas                   xx
+15-Sep-18 Westminster PA              xx St Vincent                  xx
+15-Sep-18 UC-Davis                    xx Stanford                    xx
+15-Sep-18 Kansas Wesleyan             xx Sterling                    xx
+15-Sep-18 LIU Post                    xx Stonehill                   xx
+15-Sep-18 Mary Hardin-Baylor          xx Sul Ross St                 xx
+15-Sep-18 Merchant Marine             xx SUNY-Maritime               xx
+15-Sep-18 Muhlenberg                  xx Susquehanna                 xx
+15-Sep-18 Southern Arkansas           xx SW Oklahoma St              xx
+15-Sep-18 Florida St                  xx Syracuse                    xx
+15-Sep-18 Ohio State                  xx TCU                         xx Arlington TX
+15-Sep-18 UTEP                        xx Tennessee                   xx
+15-Sep-18 Chattanooga                 xx Tennessee-Martin            xx
+15-Sep-18 Southern Cal                xx Texas                       xx
+15-Sep-18 Louisiana-Monroe            xx Texas A&M                   xx
+15-Sep-18 Houston                     xx Texas Tech                  xx
+15-Sep-18 Texas College               xx Texas Wesleyan              xx
+15-Sep-18 Midwestern St               xx Texas-Permian Basin         xx
+15-Sep-18 Geneva                      xx Thiel                       xx
+15-Sep-18 UW-Platteville              xx Thomas More                 xx
+15-Sep-18 Miami FL                    xx Toledo                      xx
+15-Sep-18 Taylor                      xx Trinity Int'l               xx
+15-Sep-18 Millsaps                    xx Trinity TX                  xx
+15-Sep-18 Arkansas St                 xx Tulsa                       xx
+15-Sep-18 Limestone                   xx Tusculum                    xx
+15-Sep-18 Fresno St                   xx UCLA                        xx
+15-Sep-18 Prairie View A&M            xx UNLV                        xx
+15-Sep-18 Winona St                   xx Upper Iowa                  xx
+15-Sep-18 Lake Erie                   xx Urbana                      xx
+15-Sep-18 Washington                  xx Utah                        xx
+15-Sep-18 RPI                         xx Utica                       xx
+15-Sep-18 Dickinson St                xx UW-La Crosse                xx
+15-Sep-18 Missouri Baptist            xx UW-River Falls              xx
+15-Sep-18 Dakota St                   xx UW-Stevens Point            xx
+15-Sep-18 Towson                      xx Villanova                   xx
+15-Sep-18 Ohio U.                     xx Virginia                    xx Nashville TN
+15-Sep-18 Concord                     xx Virginia-Wise               xx
+15-Sep-18 Reinhardt                   xx Warner U.                   xx Lakeland FL
+15-Sep-18 Buena Vista                 xx Wartburg                    xx
+15-Sep-18 Carnegie Mellon             xx Wash & Jeff                 xx
+15-Sep-18 Maryville                   xx Washington and Lee          xx
+15-Sep-18 Eastern Washington          xx Washington St               xx
+15-Sep-18 SW Assem of God             xx Wayland Baptist             xx
+15-Sep-18 Ashland                     xx Wayne St MI                 xx
+15-Sep-18 Augustana SD                xx Wayne St NE                 xx
+15-Sep-18 Bluefield VA                xx Webber Int'l                xx
+15-Sep-18 South Dakota                xx Weber St                    xx
+15-Sep-18 Middlebury                  xx Wesleyan                    xx
+15-Sep-18 Valdosta St                 xx West Alabama                xx
+15-Sep-18 Shorter                     xx West Florida                xx
+15-Sep-18 Tarleton St                 xx West Texas A&M              xx
+15-Sep-18 Montana                     xx Western Illinois            xx
+15-Sep-18 Delaware St                 xx Western Michigan            xx
+15-Sep-18 Azusa Pacific               xx Western Oregon              xx
+15-Sep-18 Colorado Mesa               xx Western St CO               xx
+15-Sep-18 Iowa Wesleyan               xx Westminster MO              xx
+15-Sep-18 Lewis & Clark OR            xx Whittier                    xx
+15-Sep-18 Chapman                     xx Whitworth                   xx
+15-Sep-18 Elon                        xx William & Mary              xx
+15-Sep-18 Brigham Young               xx Wisconsin                   xx
+15-Sep-18 Hope                        xx Wisconsin Lutheran          xx
+15-Sep-18 Fairmont St                 xx WV Wesleyan                 xx
+15-Sep-18 Wofford                     xx Wyoming                     xx
+15-Sep-18 Valparaiso                  xx Youngstown St               xx
