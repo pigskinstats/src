@@ -15,8 +15,7 @@ class Api {
   }
 
   async getGames() {
-    const games = await this._rawGames;
-    const teams = await this._rawTeams;
+    const [games, teams] = await Promise.all([this._rawGames, this._rawTeams]);
     const result = games.map(({ date, awayTeam, awayScore, homeTeam, homeScore }) => ({
       date: GameDate.fromIsoDate(date),
       awayTeam: { name: teams[awayTeam].name, score: awayScore },
