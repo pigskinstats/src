@@ -5,8 +5,8 @@ function viewGameMapper(teams) {
   return function ({ date, awayTeam, awayScore, homeTeam, homeScore }) {
     return {
       date: GameDate.fromIsoDate(date),
-      awayTeam: { name: teams[awayTeam].name, score: awayScore },
-      homeTeam: { name: teams[homeTeam].name, score: homeScore },
+      awayTeam: { slug: awayTeam, name: teams[awayTeam].name, score: awayScore },
+      homeTeam: { slug: homeTeam, name: teams[homeTeam].name, score: homeScore },
     };
   };
 }
