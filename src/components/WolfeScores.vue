@@ -22,7 +22,6 @@
 
 <script>
 import api from '@/modules/api';
-import parser from '@/modules/wolfe-parser';
 import { nullOr } from '@/modules/util';
 import { Paginator } from '@/modules/pagination';
 
