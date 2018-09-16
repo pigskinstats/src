@@ -14,6 +14,11 @@ class Api {
     return this._http.getJson('/static/wolfe-scores/2018/games-db.json');
   }
 
+  async getTeams() {
+    const teams = await this._rawTeams;
+    return Object.keys(teams).map(slug => Object.assign({}, { slug: slug }, teams[slug]));
+  }
+
   async getGames() {
     const [games, teams] = await Promise.all([this._rawGames, this._rawTeams]);
     const result = games.map(({ date, awayTeam, awayScore, homeTeam, homeScore }) => ({
