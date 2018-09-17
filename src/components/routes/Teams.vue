@@ -13,17 +13,21 @@ import { alphaSort } from '@/modules/util';
 import { Paginator } from '@/modules/pagination';
 
 export default {
-  data: () => {
-    const result = {
+  methods: {
+    updateTeams() {
+      api.getTeams().then(teams => {
+        this.teams = new Paginator(teams.sort(alphaSort(x => x.name)));
+      }).catch(e => result.error = e);
+    },
+  },
+  created() {
+    this.updateTeams();
+  },
+  data() {
+    return {
       teams: new Paginator([]),
       error: '',
     };
-
-    api.getTeams().then(teams => {
-      result.teams = new Paginator(teams.sort(alphaSort(x => x.name)));
-    }).catch(e => result.error = e);
-
-    return result;
   },
 };
 </script>
