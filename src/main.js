@@ -19,6 +19,7 @@ import PageTitle from '@/components/page-components/PageTitle';
 import AlertMessage from '@/components/page-components/AlertMessage';
 import PaginationControls from '@/components/page-components/PaginationControls';
 import GamesTable from '@/components/page-components/GamesTable';
+import TeamsTable from '@/components/page-components/TeamsTable';
 
 Vue.use(BootstrapVue);
 
@@ -29,6 +30,7 @@ Vue.component('page-title', PageTitle);
 Vue.component('alert-message', AlertMessage);
 Vue.component('pagination-controls', PaginationControls);
 Vue.component('games-table', GamesTable);
+Vue.component('teams-table', TeamsTable);
 
 Vue.config.productionTip = false;
 

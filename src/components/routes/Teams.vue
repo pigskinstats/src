@@ -2,18 +2,14 @@
   <div>
     <page-title title="Teams"/>
     <pagination-controls :paginator="teams"/>
-    <table cellspacing="10" border="1" class="data-table">
-      <tr v-for="team in teams.items">
-        <td><router-link :to="{ name: 'Team', params: { id: team.slug } }">{{ team.name }}</router-link></td>
-      </tr>
-    </table>
+    <teams-table :teams="teams.items"/>
     <alert-message v-if="error" level="error">{{ error }}</alert-message>
   </div>
 </template>
 
 <script>
 import api from '@/modules/api';
-import { unsetOr, alphaSort } from '@/modules/util';
+import { alphaSort } from '@/modules/util';
 import { Paginator } from '@/modules/pagination';
 
 export default {
