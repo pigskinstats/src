@@ -14,8 +14,8 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import App from './App';
 import router from './router';
-import PageHeading from '@/components/PageHeading';
-import PageTitle from '@/components/PageTitle';
+import PageHeading from '@/components/page-components/PageHeading';
+import PageTitle from '@/components/page-components/PageTitle';
 
 Vue.use(BootstrapVue);
 

@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Games from '@/components/Games';
-import Teams from '@/components/Teams';
-import Team from '@/components/Team';
+import Games from '@/components/routes/Games';
+import Teams from '@/components/routes/Teams';
+import Team from '@/components/routes/Team';
 
 Vue.use(Router)
 
@@ -14,7 +14,7 @@ export default new Router({
       component: Games
     },
     {
-      path: '/scores',
+      path: '/games',
       name: 'Games',
       component: Games
     },
