@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h2>Teams</h2>
-    <div>Source: <a href="http://prwolfe.bol.ucla.edu/cfootball/scores.htm">Wolfe Scores</a></div>
+    <page-title title="Teams"/>
     <div align="center" class="data-table-controls">
       <button class="btn" v-on:click="teams.back()"><font-awesome-icon icon="angle-left" /> Back</button>
       <span>Page {{ teams.page }} of {{ teams.pages }}</span>

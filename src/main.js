@@ -15,12 +15,14 @@ import {
 import App from './App';
 import router from './router';
 import PageHeading from '@/components/PageHeading';
+import PageTitle from '@/components/PageTitle';
 
 Vue.use(BootstrapVue);
 
 library.add(faFootballBall, faAngleRight, faAngleLeft);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.component('page-heading', PageHeading);
+Vue.component('page-title', PageTitle);
 
 Vue.config.productionTip = false;
 

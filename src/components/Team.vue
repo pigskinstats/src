@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h2>Team: {{ team.name }} ({{ record }})</h2>
-    <div>Source: <a href="http://prwolfe.bol.ucla.edu/cfootball/scores.htm">Wolfe Scores</a></div>
+    <page-title :title="`Team: ${team.name} (${record})`"/>
     <table cellspacing="10" border="1" class="data-table">
       <tr v-for="game in team.games">
         <td>{{ game.date.toString() }}</td>
