@@ -16,6 +16,7 @@ import App from './App';
 import router from './router';
 import PageHeading from '@/components/page-components/PageHeading';
 import PageTitle from '@/components/page-components/PageTitle';
+import AlertMessage from '@/components/page-components/AlertMessage';
 
 Vue.use(BootstrapVue);
 
@@ -23,6 +24,7 @@ library.add(faFootballBall, faAngleRight, faAngleLeft);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.component('page-heading', PageHeading);
 Vue.component('page-title', PageTitle);
+Vue.component('alert-message', AlertMessage);
 
 Vue.config.productionTip = false;
 

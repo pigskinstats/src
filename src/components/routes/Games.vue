@@ -19,7 +19,7 @@
         <td :class="teamStyle(game.awayTeam, game.homeTeam)" class="number-cell">{{ scoreValue(game.awayTeam.score) }}</td>
       </tr>
     </table>
-    <div class="text-danger" v-if="error"><b>Error:</b> {{ error }}</div>
+    <alert-message v-if="error" level="error">{{ error }}</alert-message>
   </div>
 </template>
 
