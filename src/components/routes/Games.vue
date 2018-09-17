@@ -12,17 +12,21 @@ import api from '@/modules/api';
 import { Paginator } from '@/modules/pagination';
 
 export default {
-  data: () => {
-    const result = {
+  methods: {
+    updateGames() {
+      api.getGames().then(games => {
+        this.games = new Paginator(games.sort((a, b) => b.date.unix - a.date.unix));
+      }).catch(e => result.error = e);
+    },
+  },
+  created() {
+    this.updateGames();
+  },
+  data() {
+    return {
       games: new Paginator([]),
       error: '',
     };
-
-    api.getGames().then(games => {
-      result.games = new Paginator(games.sort((a, b) => b.date.unix - a.date.unix));
-    }).catch(e => result.error = e);
-
-    return result;
   },
 };
 </script>
