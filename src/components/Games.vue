@@ -12,11 +12,11 @@
         <td :class="teamStyle(game.homeTeam, game.awayTeam)">
           <router-link :to="{ name: 'Team', params: { id: game.homeTeam.slug } }">{{ game.homeTeam.name }}</router-link>
         </td>
-        <td :class="teamStyle(game.homeTeam, game.awayTeam)" class="number-cell">{{ unsetOr(game.homeTeam.score, '-') }}</td>
+        <td :class="teamStyle(game.homeTeam, game.awayTeam)" class="number-cell">{{ scoreValue(game.homeTeam.score) }}</td>
         <td :class="teamStyle(game.awayTeam, game.homeTeam)">
           <router-link :to="{ name: 'Team', params: { id: game.awayTeam.slug } }">{{ game.awayTeam.name }}</router-link>
         </td>
-        <td :class="teamStyle(game.awayTeam, game.homeTeam)" class="number-cell">{{ unsetOr(game.awayTeam.score, '-') }}</td>
+        <td :class="teamStyle(game.awayTeam, game.homeTeam)" class="number-cell">{{ scoreValue(game.awayTeam.score) }}</td>
       </tr>
     </table>
     <div class="text-danger" v-if="error"><b>Error:</b> {{ error }}</div>
@@ -29,20 +29,22 @@ import { unsetOr } from '@/modules/util';
 import { Paginator } from '@/modules/pagination';
 
 export default {
+  methods: {
+    scoreValue: (value) => unsetOr(value, '-'),
+    teamStyle: (currentTeam, otherTeam) => {
+      if(currentTeam.score > otherTeam.score) {
+        return { 'winner': true };
+      }
+
+      if(currentTeam.score < otherTeam.score) {
+        return { 'loser': true };
+      }
+    },
+  },
   data: () => {
     const result = {
       games: new Paginator([]),
       error: '',
-      unsetOr: unsetOr,
-      teamStyle: (currentTeam, otherTeam) => {
-        if(currentTeam.score > otherTeam.score) {
-          return { 'winner': true };
-        }
-
-        if(currentTeam.score < otherTeam.score) {
-          return { 'loser': true };
-        }
-      },
     };
 
     api.getGames().then(games => {
