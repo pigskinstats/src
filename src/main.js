@@ -17,6 +17,7 @@ import router from './router';
 import PageHeading from '@/components/page-components/PageHeading';
 import PageTitle from '@/components/page-components/PageTitle';
 import AlertMessage from '@/components/page-components/AlertMessage';
+import PaginationControls from '@/components/page-components/PaginationControls';
 
 Vue.use(BootstrapVue);
 
@@ -25,6 +26,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.component('page-heading', PageHeading);
 Vue.component('page-title', PageTitle);
 Vue.component('alert-message', AlertMessage);
+Vue.component('pagination-controls', PaginationControls);
 
 Vue.config.productionTip = false;
 

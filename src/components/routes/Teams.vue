@@ -1,11 +1,7 @@
 <template>
   <div>
     <page-title title="Teams"/>
-    <div align="center" class="data-table-controls">
-      <button class="btn" v-on:click="teams.back()"><font-awesome-icon icon="angle-left" /> Back</button>
-      <span>Page {{ teams.page }} of {{ teams.pages }}</span>
-      <button class="btn" v-on:click="teams.forward()">Forward <font-awesome-icon icon="angle-right" /></button>
-    </div>
+    <pagination-controls :paginator="teams"/>
     <table cellspacing="10" border="1" class="data-table">
       <tr v-for="team in teams.items">
         <td><router-link :to="{ name: 'Team', params: { id: team.slug } }">{{ team.name }}</router-link></td>

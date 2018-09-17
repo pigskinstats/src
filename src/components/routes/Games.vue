@@ -1,11 +1,7 @@
 <template>
   <div>
     <page-title title="Games"/>
-    <div align="center" class="data-table-controls">
-      <button class="btn" v-on:click="games.back()"><font-awesome-icon icon="angle-left" /> Back</button>
-      <span>Page {{ games.page }} of {{ games.pages }}</span>
-      <button class="btn" v-on:click="games.forward()">Forward <font-awesome-icon icon="angle-right" /></button>
-    </div>
+    <pagination-controls :paginator="games"/>
     <table cellspacing="10" border="1" class="data-table">
       <tr v-for="game in games.items">
         <td>{{ game.date.toString() }}</td>
