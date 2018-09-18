@@ -1,7 +1,7 @@
 <template>
   <data-table>
     <tr v-for="game in games">
-      <td>{{ game.date.toString() }}</td>
+      <td style="white-space: nowrap;">{{ game.date.toString() }}</td>
       <td :class="teamStyle(game.homeTeam, game.awayTeam)">
         <router-link :to="{ name: 'Team', params: { id: game.homeTeam.slug } }">{{ game.homeTeam.name }}</router-link>
       </td>
@@ -43,5 +43,9 @@ export default {
 
 .loser {
   background-color: #fff;
+}
+
+tr {
+  vertical-align: top;
 }
 </style>
