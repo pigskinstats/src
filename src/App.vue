@@ -1,11 +1,7 @@
 <template>
   <div id="app">
-    <div class="heading">
-      <page-heading/>
-    </div>
-    <div class="content">
-      <router-view/>
-    </div>
+    <page-heading/>
+    <router-view class="content"/>
   </div>
 </template>
 
@@ -24,16 +20,5 @@ export default {
 
 .content {
   padding: 20px;
-}
-
-.heading {
-  background-color: #336;
-  color: #ccc;
-  padding: 20px;
-}
-
-.data-table-controls {
-  margin: 10px;
-  text-align: center;
 }
 </style>

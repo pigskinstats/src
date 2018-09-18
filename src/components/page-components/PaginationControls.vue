@@ -15,4 +15,8 @@ export default {
 </script>
 
 <style scoped>
+.data-table-controls {
+  margin: 10px;
+  text-align: center;
+}
 </style>

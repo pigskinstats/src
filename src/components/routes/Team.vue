@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-title :title="`Team: ${team.name} (${record})`"/>
+    <page-title :title="`${team.name}`" :info="{ 'Record': `(${record})` }"/>
     <games-table :games="team.games"/>
     <alert-message v-if="error" level="error">{{ error }}</alert-message>
   </div>
