@@ -32,22 +32,6 @@ export default {
   padding: 20px;
 }
 
-.data-table {
-  width: 100%;
-}
-
-.data-table tr:nth-child(odd) {
-  background-color: #ccc;
-}
-
-.data-table tr td {
-  padding: 4px;
-}
-
-.data-table .number-cell {
-  text-align: right;
-}
-
 .data-table-controls {
   margin: 10px;
   text-align: center;

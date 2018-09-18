@@ -1,5 +1,5 @@
 <template>
-  <table cellspacing="10" border="1" class="data-table">
+  <data-table>
     <tr v-for="game in games">
       <td>{{ game.date.toString() }}</td>
       <td :class="teamStyle(game.homeTeam, game.awayTeam)">
@@ -11,7 +11,7 @@
       </td>
       <td :class="teamStyle(game.awayTeam, game.homeTeam)" class="number-cell">{{ scoreValue(game.awayTeam.score) }}</td>
     </tr>
-  </table>
+  </data-table>
 </template>
 
 <script>

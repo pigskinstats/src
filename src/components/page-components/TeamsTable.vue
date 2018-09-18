@@ -1,9 +1,9 @@
 <template>
-  <table cellspacing="10" border="1" class="data-table">
+  <data-table>
     <tr v-for="team in teams">
       <td><router-link :to="{ name: 'Team', params: { id: team.slug } }">{{ team.name }}</router-link></td>
     </tr>
-  </table>
+  </data-table>
 </template>
 
 <script>
@@ -13,6 +13,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-</style>
