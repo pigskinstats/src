@@ -1095,7 +1095,7 @@ Date      Away Team                      Home Team                      or semi-
 22-Sep-18 William Penn                13 Central Methodist           20
 22-Sep-18 Maine                        5 Central Michigan            17
 22-Sep-18 NW Missouri St              21 Central Oklahoma            31
-22-Sep-18 Berry                       41 Centre                      35
+22-Sep-18 Berry                       38 Centre                      35
 22-Sep-18 Elon                        31 Charleston Southern         22
 22-Sep-18 Samford                     20 Chattanooga                 27
 22-Sep-18 Illinois College             9 Chicago                     56
@@ -1157,9 +1157,9 @@ Date      Away Team                      Home Team                      or semi-
 22-Sep-18 Oklahoma Baptist             7 Harding                     56
 22-Sep-18 Howard Payne                14 Hardin-Simmons              65
 22-Sep-18 Dordt                       55 Hastings                    17
-22-Sep-18 Duquesne                    xx Hawai`i                     xx
+22-Sep-18 Duquesne                    21 Hawai`i                     42
 22-Sep-18 Baldwin Wallace             34 Heidelberg                  10
-22-Sep-18 SW Oklahoma St              28 Henderson St                31
+22-Sep-18 SW Oklahoma St              35 Henderson St                31
 22-Sep-18 Lake Erie                    7 Hillsdale                   41
 22-Sep-18 Dartmouth                   34 Holy Cross                  14
 22-Sep-18 Texas Southern              14 Houston                     70
@@ -1277,7 +1277,7 @@ Date      Away Team                      Home Team                      or semi-
 22-Sep-18 Wayne St MI                 29 Saginaw Valley St           35
 22-Sep-18 New Jersey                   7 Salisbury                   38
 22-Sep-18 Western Conn St             40 Salve Regina                21
-22-Sep-18 Eastern Michigan            xx San Diego St                xx
+22-Sep-18 Eastern Michigan            20 San Diego St                23
 22-Sep-18 Millsaps                    21 Sewanee                     14
 22-Sep-18 Central Washington          63 Simon Fraser                10
 22-Sep-18 Seton Hill                  26 Slippery Rock               49
@@ -1326,7 +1326,7 @@ Date      Away Team                      Home Team                      or semi-
 22-Sep-18 Webber Int'l                27 Union KY                     9
 22-Sep-18 Curry                        6 Union NY                    49
 22-Sep-18 Moravian                    14 Ursinus                     21
-22-Sep-18 Air Force                   xx Utah St                     xx
+22-Sep-18 Air Force                   32 Utah St                     42
 22-Sep-18 New Mexico St               27 UTEP                        20
 22-Sep-18 Lakeland                    12 UW-Platteville              49
 22-Sep-18 Cal Lutheran                24 UW-Stout                    49
@@ -1343,7 +1343,7 @@ Date      Away Team                      Home Team                      or semi-
 22-Sep-18 Tiffin                      27 Walsh                       20
 22-Sep-18 Grove City                  10 Wash & Jeff                 62
 22-Sep-18 Central Missouri            21 Washburn                    28
-22-Sep-18 Arizona St                  xx Washington                  xx
+22-Sep-18 Arizona St                  20 Washington                  27
 22-Sep-18 Carthage                    31 Washington MO               51
 22-Sep-18 Geneva                       7 Waynesburg                  10
 22-Sep-18 Northern Colorado           28 Weber St                    45
@@ -1370,3 +1370,4 @@ Date      Away Team                      Home Team                      or semi-
 22-Sep-18 DePauw                      21 Wooster                     24
 22-Sep-18 Westfield St                42 Worcester St                22
 22-Sep-18 Springfield                 17 WPI                         14
+23-Sep-18 Fort Valley St              20 Benedict                    28
