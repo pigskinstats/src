@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "download": "cd scripts && python3 ./download_scores.py",
+    "download": "cd scripts && python3 ./download_scores.py && python3 ./generate_json.py",
     "deploy": "cd dist && git add . && git cm --amend -m 'Build app' && git push -f"
   },
   "dependencies": {
