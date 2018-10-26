@@ -1,0 +1,17 @@
+image: node:8.12.0
+
+pipelines:
+  branches:
+    master:
+      - step:
+          # set AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY as environment variables
+          name: Deploy to S3
+          deployment: production
+          script:
+            - apt-get update && apt-get install -y python-dev
+            - curl -O https://bootstrap.pypa.io/get-pip.py
+            - python get-pip.py
+            - pip install awscli --upgrade
+            - npm install
+            - npm run build
+            - aws s3 sync --delete ./dist s3://www.pigskinstats.com
