@@ -3118,3 +3118,5 @@ Date      Away Team                      Home Team                      or semi-
 27-Oct-18 Kenyon                       0 Wooster                     41
 27-Oct-18 MIT                          6 WPI                         13
 27-Oct-18 Indiana St                  43 Youngstown St               17
+30-Oct-18 Kent St                     35 Bowling Green               28
+30-Oct-18 Miami OH                    42 Buffalo                     51
