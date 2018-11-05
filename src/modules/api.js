@@ -32,11 +32,11 @@ class Api {
   }
 
   get _rawTeams() {
-    return this._http.getJson('/static/wolfe-scores/2018/teams-db.json');
+    return this._http.getJson('https://data.pigskinstats.com/data/2018/teams.json');
   }
 
   get _rawGames() {
-    return this._http.getJson('/static/wolfe-scores/2018/games-db.json');
+    return this._http.getJson('https://data.pigskinstats.com/data/2018/games.json');
   }
 
   async getTeams() {
