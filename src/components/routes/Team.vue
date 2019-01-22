@@ -11,19 +11,22 @@ import api from '@/modules/api';
 
 export default {
   methods: {
-    updateTeam(teamId) {
-      api.getTeam(teamId).then(team => {
+    async updateTeam(teamId) {
+      try {
+        const team = await api.getTeam(teamId);
         this.team = team;
         this.record = `${team.record.wins}-${team.record.losses}`;
-      }).catch(e => result.error = e);
+      } catch(e) {
+        this.error = e;
+      }
     },
   },
-  beforeRouteUpdate(to, from, next) {
-    this.updateTeam(to.params.id);
+  async beforeRouteUpdate(to, from, next) {
+    await this.updateTeam(to.params.id);
     next();
   },
-  created() {
-    this.updateTeam(this.$route.params.id);
+  async created() {
+    await this.updateTeam(this.$route.params.id);
   },
   data() {
     return {

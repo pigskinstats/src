@@ -14,14 +14,17 @@ import { Paginator } from '@/modules/pagination';
 
 export default {
   methods: {
-    updateTeams() {
-      api.getTeams().then(teams => {
+    async updateTeams() {
+      try {
+        const teams = await api.getTeams();
         this.teams = new Paginator(teams.sort(alphaSort(x => x.name)));
-      }).catch(e => result.error = e);
+      } catch(e) {
+        this.error = e;
+      }
     },
   },
-  created() {
-    this.updateTeams();
+  async created() {
+    await this.updateTeams();
   },
   data() {
     return {

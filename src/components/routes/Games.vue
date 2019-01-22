@@ -11,16 +11,23 @@
 import api from '@/modules/api';
 import { Paginator } from '@/modules/pagination';
 
+function gameSorter(a, b) {
+  return b.date.unix - a.date.unix;
+}
+
 export default {
   methods: {
-    updateGames() {
-      api.getGames().then(games => {
-        this.games = new Paginator(games.sort((a, b) => b.date.unix - a.date.unix));
-      }).catch(e => result.error = e);
+    async updateGames() {
+      try {
+        const games = await api.getGames();
+        this.games = new Paginator(games.sort(gameSorter));
+      } catch(e) {
+        this.error = e;
+      }
     },
   },
-  created() {
-    this.updateGames();
+  async created() {
+    await this.updateGames();
   },
   data() {
     return {
