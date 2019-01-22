@@ -31,21 +31,21 @@ class Api {
     this._http = http;
   }
 
-  get _rawTeams() {
-    return this._http.getJson('/static/wolfe-scores/2018/teams-db.json');
+  async _getRawTeams() {
+    return await this._http.getJson('/static/wolfe-scores/2018/teams-db.json');
   }
 
-  get _rawGames() {
-    return this._http.getJson('/static/wolfe-scores/2018/games-db.json');
+  async _getRawGames() {
+    return await this._http.getJson('/static/wolfe-scores/2018/games-db.json');
   }
 
   async getTeams() {
-    const teams = await this._rawTeams;
-    return Object.keys(teams).map(slug => Object.assign({}, { slug: slug }, teams[slug]));
+    const teams = await this._getRawTeams();
+    return Object.keys(teams).map(slug => Object.assign({ slug }, teams[slug]));
   }
 
   async getTeam(slug) {
-    const [teams, games] = await Promise.all([this._rawTeams, this._rawGames]);
+    const [teams, games] = await Promise.all([this._getRawTeams(), this._getRawGames()]);
     const teamGames = games.filter(({ awayTeam, homeTeam }) => [homeTeam, awayTeam].includes(slug));
 
     const record = teamGames.reduce((result, game) => { 
@@ -64,7 +64,7 @@ class Api {
   }
 
   async getGames() {
-    const [games, teams] = await Promise.all([this._rawGames, this._rawTeams]);
+    const [games, teams] = await Promise.all([this._getRawGames(), this._getRawTeams()]);
     return games.map(viewGameMapper(teams));
   }
 }
