@@ -1,7 +1,7 @@
 <template>
   <div class="page-title">
     <h2>{{ title }}</h2>
-    <div v-for="item in each(info)">{{ item.key }}: {{ item.value }}</div>
+    <div v-for="{ key, value } in each(info)">{{ key }}: {{ value }}</div>
   </div>
 </template>
 

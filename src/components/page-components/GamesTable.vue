@@ -1,15 +1,15 @@
 <template>
   <data-table>
-    <tr v-for="game in games">
-      <td style="white-space: nowrap;">{{ game.date.toString() }}</td>
-      <td :class="teamStyle(game.homeTeam, game.awayTeam)">
-        <router-link :to="{ name: 'Team', params: { id: game.homeTeam.slug } }">{{ game.homeTeam.name }}</router-link>
+    <tr v-for="{ homeTeam, awayTeam, date } in games">
+      <td style="white-space: nowrap;">{{ date.toString() }}</td>
+      <td :class="teamStyle(homeTeam, awayTeam)">
+        <router-link :to="{ name: 'Team', params: { id: homeTeam.slug } }">{{ homeTeam.name }}</router-link>
       </td>
-      <td :class="teamStyle(game.homeTeam, game.awayTeam)" class="number-cell">{{ scoreValue(game.homeTeam.score) }}</td>
-      <td :class="teamStyle(game.awayTeam, game.homeTeam)">
-        <router-link :to="{ name: 'Team', params: { id: game.awayTeam.slug } }">{{ game.awayTeam.name }}</router-link>
+      <td :class="teamStyle(homeTeam, awayTeam)" class="number-cell">{{ scoreValue(homeTeam.score) }}</td>
+      <td :class="teamStyle(awayTeam, homeTeam)">
+        <router-link :to="{ name: 'Team', params: { id: awayTeam.slug } }">{{ awayTeam.name }}</router-link>
       </td>
-      <td :class="teamStyle(game.awayTeam, game.homeTeam)" class="number-cell">{{ scoreValue(game.awayTeam.score) }}</td>
+      <td :class="teamStyle(awayTeam, homeTeam)" class="number-cell">{{ scoreValue(awayTeam.score) }}</td>
     </tr>
   </data-table>
 </template>
