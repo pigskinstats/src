@@ -26,6 +26,16 @@ function recordKey(game, slug) {
   return scores.this > scores.other ? 'wins' : 'losses';
 }
 
+function recordCounter(slug) {
+  return function(result, game) {
+    const key = recordKey(game, slug);
+    if(key) {
+      result[key] += 1;
+    }
+    return result;
+  }
+}
+
 class Api {
   async _getRawTeams() {
     return await axios.get('/static/wolfe-scores/2018/teams-db.json').then(({ data }) => data);
@@ -41,26 +51,18 @@ class Api {
   }
 
   async getTeam(slug) {
-    const [teams, games] = await Promise.all([this._getRawTeams(), this._getRawGames()]);
+    const [ teams, games ] = await Promise.all([this._getRawTeams(), this._getRawGames()]);
     const teamGames = games.filter(({ awayTeam, homeTeam }) => [homeTeam, awayTeam].includes(slug));
-
-    const record = teamGames.reduce((result, game) => { 
-      const key = recordKey(game, slug);
-      if(key) {
-        result[key] += 1;
-      }
-      return result;
-    }, { wins: 0, losses: 0 });
 
     return Object.assign({},
       teams[slug],
       { games: teamGames.map(viewGameMapper(teams)) },
-      { record: record }
+      { record: teamGames.reduce(recordCounter(slug), { wins: 0, losses: 0 }) }
     );
   }
 
   async getGames() {
-    const [games, teams] = await Promise.all([this._getRawGames(), this._getRawTeams()]);
+    const [ games, teams ] = await Promise.all([this._getRawGames(), this._getRawTeams()]);
     return games.map(viewGameMapper(teams));
   }
 }
