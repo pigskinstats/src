@@ -1,4 +1,4 @@
-import Http from '@/modules/http';
+import axios from 'axios';
 import { GameDate } from '@/modules/game-date';
 
 function viewGameMapper(teams) {
@@ -27,16 +27,12 @@ function recordKey(game, slug) {
 }
 
 class Api {
-  constructor(http) {
-    this._http = http;
-  }
-
   async _getRawTeams() {
-    return await this._http.getJson('/static/wolfe-scores/2018/teams-db.json');
+    return await axios.get('/static/wolfe-scores/2018/teams-db.json').then(({ data }) => data);
   }
 
   async _getRawGames() {
-    return await this._http.getJson('/static/wolfe-scores/2018/games-db.json');
+    return await axios.get('/static/wolfe-scores/2018/games-db.json').then(({ data }) => data);
   }
 
   async getTeams() {
@@ -69,4 +65,4 @@ class Api {
   }
 }
 
-export default new Api(Http);
+export default new Api();

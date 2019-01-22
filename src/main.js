@@ -4,7 +4,6 @@ import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
-import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {
@@ -35,8 +34,6 @@ Vue.component('teams-table', TeamsTable);
 Vue.component('data-table', DataTable);
 
 Vue.config.productionTip = false;
-
-Vue.prototype.$http = axios;
 
 /* eslint-disable no-new */
 new Vue({
