@@ -4,22 +4,25 @@ import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import App from './App';
+import router from './router';
+
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {
   faFootballBall,
   faAngleRight,
   faAngleLeft,
 } from '@fortawesome/free-solid-svg-icons'
-import App from './App';
-import router from './router';
-import PageHeading from '@/components/page-components/PageHeading';
-import PageTitle from '@/components/page-components/PageTitle';
-import AlertMessage from '@/components/page-components/AlertMessage';
-import PaginationControls from '@/components/page-components/PaginationControls';
-import GamesTable from '@/components/page-components/GamesTable';
-import TeamsTable from '@/components/page-components/TeamsTable';
-import DataTable from '@/components/page-components/DataTable';
+
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+import PageHeading from '@/components/shared/PageHeading';
+import PageTitle from '@/components/shared/PageTitle';
+import AlertMessage from '@/components/shared/AlertMessage';
+import GamesTable from '@/components/shared/GamesTable';
+import TeamsTable from '@/components/shared/TeamsTable';
+import DataTable from '@/components/shared/DataTable';
+import PaginationControls from '@/components/shared/PaginationControls';
 
 Vue.use(BootstrapVue);
 
