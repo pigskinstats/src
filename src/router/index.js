@@ -10,21 +10,20 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component: Games
+      redirect: '/seasons/2018/games',
     },
     {
-      path: '/games',
+      path: '/seasons/:season/games',
       name: 'Games',
       component: Games
     },
     {
-      path: '/teams',
+      path: '/seasons/:season/teams',
       name: 'Teams',
       component: Teams
     },
     {
-      path: '/teams/:id',
+      path: '/seasons/:season/teams/:id',
       name: 'Team',
       component: Team
     },

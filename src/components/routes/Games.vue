@@ -2,7 +2,7 @@
   <div>
     <page-title title="Games"/>
     <pagination-controls :paginator="games"/>
-    <games-table :games="games.items"/>
+    <games-table :season="season" :games="games.items"/>
     <alert-message v-if="error" level="error">{{ error }}</alert-message>
   </div>
 </template>
@@ -31,6 +31,7 @@ export default {
   },
   data() {
     return {
+      season: Number(this.$route.params['season']),
       games: new Paginator([]),
       error: '',
     };

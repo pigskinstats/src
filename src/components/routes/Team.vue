@@ -1,7 +1,7 @@
 <template>
   <div>
     <page-title :title="`${team.name}`" :info="{ 'Record': `(${record})` }"/>
-    <games-table :games="team.games"/>
+    <games-table :season="season" :games="team.games"/>
     <alert-message v-if="error" level="error">{{ error }}</alert-message>
   </div>
 </template>
@@ -30,6 +30,7 @@ export default {
   },
   data() {
     return {
+      season: Number(this.$route.params['season']),
       team: {},
       record: '',
       error: '',
