@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-title title="Teams"/>
+    <page-title title="Teams" :info="{ 'Season': season }"/>
     <pagination-controls :paginator="teams"/>
     <teams-table :teams="teams.items"/>
     <alert-message v-if="error" level="error">{{ error }}</alert-message>
@@ -29,6 +29,7 @@ export default {
   data() {
     return {
       teams: new Paginator([]),
+      season: Number(this.$route.params['season']),
       error: '',
     };
   },

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-title title="Games"/>
+    <page-title title="Games" :info="{ 'Season': season }"/>
     <pagination-controls :paginator="games"/>
     <games-table :season="season" :games="games.items"/>
     <alert-message v-if="error" level="error">{{ error }}</alert-message>
