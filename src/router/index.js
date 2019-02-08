@@ -7,6 +7,8 @@ import Team from '@/components/routes/Team';
 
 Vue.use(Router)
 
+const RouterParent = { template: '<router-view/>' };
+
 export default new Router({
   routes: [
     {
@@ -15,28 +17,40 @@ export default new Router({
     },
     {
       path: '/seasons',
-      name: 'Seasons',
-      component: Seasons,
+      component: RouterParent,
+      children: [
+        {
+          path: '',
+          name: 'Seasons',
+          component: Seasons,
+        },
+        {
+          path: ':season',
+          component: RouterParent,
+          children: [
+            {
+              path: '',
+              name: 'Season',
+              redirect: ({ params }) => ({ name: 'Games', params }),
+            },
+            {
+              path: 'games',
+              name: 'Games',
+              component: Games,
+            },
+            {
+              path: 'teams',
+              name: 'Teams',
+              component: Teams,
+            },
+            {
+              path: 'teams/:id',
+              name: 'Team',
+              component: Team,
+            },
+          ],
+        },
+      ],
     },
-    {
-      path: '/seasons/:season',
-      name: 'Season',
-      redirect: ({ params }) => ({ name: 'Games', params }),
-    },
-    {
-      path: '/seasons/:season/games',
-      name: 'Games',
-      component: Games,
-    },
-    {
-      path: '/seasons/:season/teams',
-      name: 'Teams',
-      component: Teams,
-    },
-    {
-      path: '/seasons/:season/teams/:id',
-      name: 'Team',
-      component: Team,
-    },
-  ]
+  ],
 });
