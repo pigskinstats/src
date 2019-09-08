@@ -1,6 +1,8 @@
 import axios from 'axios';
 import { GameDate } from '@/modules/game-date';
 
+const YEAR = 2018;
+
 function viewGameMapper(teams) {
   return function ({ date, awayTeam, awayScore, homeTeam, homeScore }) {
     return {
@@ -37,21 +39,23 @@ function recordCounter(slug) {
 }
 
 class Api {
-  async _getRawTeams() {
-    return await axios.get('/static/wolfe-scores/2018/teams-db.json').then(({ data }) => data);
+  async _getRawTeams(year) {
+    const url = `/static/wolfe-scores/${year}/teams-db.json`;
+    return await axios.get(url).then(({ data }) => data);
   }
 
-  async _getRawGames() {
-    return await axios.get('/static/wolfe-scores/2018/games-db.json').then(({ data }) => data);
+  async _getRawGames(year) {
+    const url = `/static/wolfe-scores/${year}/games-db.json`;
+    return await axios.get(url).then(({ data }) => data);
   }
 
   async getTeams() {
-    const teams = await this._getRawTeams();
+    const teams = await this._getRawTeams(YEAR);
     return Object.keys(teams).map(slug => Object.assign({ slug }, teams[slug]));
   }
 
   async getTeam(slug) {
-    const [ teams, games ] = await Promise.all([this._getRawTeams(), this._getRawGames()]);
+    const [ teams, games ] = await Promise.all([this._getRawTeams(YEAR), this._getRawGames(YEAR)]);
     const teamGames = games.filter(({ awayTeam, homeTeam }) => [homeTeam, awayTeam].includes(slug));
 
     return Object.assign({},
@@ -62,7 +66,7 @@ class Api {
   }
 
   async getGames() {
-    const [ games, teams ] = await Promise.all([this._getRawGames(), this._getRawTeams()]);
+    const [ games, teams ] = await Promise.all([this._getRawGames(YEAR), this._getRawTeams(YEAR)]);
     return games.map(viewGameMapper(teams));
   }
 }
