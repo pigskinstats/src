@@ -13,7 +13,7 @@
 export default {
   data() {
     return {
-      seasons: [ 2018 ],
+      seasons: [ 2018, 2019 ],
     };
   },
 };
