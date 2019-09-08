@@ -10,10 +10,12 @@
 </template>
 
 <script>
+import api from '@/modules/api';
+
 export default {
   data() {
     return {
-      seasons: [ 2018, 2019 ],
+      seasons: api.getSeasons(),
     };
   },
 };

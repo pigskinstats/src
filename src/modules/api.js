@@ -67,6 +67,10 @@ class Api {
     const [ games, teams ] = await Promise.all([this._getRawGames(season), this._getRawTeams(season)]);
     return games.map(viewGameMapper(teams));
   }
+
+  getSeasons() {
+    return [ 2018, 2019 ];
+  }
 }
 
 export default new Api();
