@@ -19,7 +19,7 @@ export default {
   methods: {
     async updateGames() {
       try {
-        const games = await api.getGames();
+        const games = await api.getGames({ season: this.season });
         this.games = new Paginator(games.sort(gameSorter));
       } catch(e) {
         this.error = e;

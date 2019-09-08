@@ -1,8 +1,6 @@
 import axios from 'axios';
 import { GameDate } from '@/modules/game-date';
 
-const YEAR = 2018;
-
 function viewGameMapper(teams) {
   return function ({ date, awayTeam, awayScore, homeTeam, homeScore }) {
     return {
@@ -49,13 +47,13 @@ class Api {
     return await axios.get(url).then(({ data }) => data);
   }
 
-  async getTeams() {
-    const teams = await this._getRawTeams(YEAR);
+  async getTeams({ season }) {
+    const teams = await this._getRawTeams(season);
     return Object.keys(teams).map(slug => Object.assign({ slug }, teams[slug]));
   }
 
-  async getTeam(slug) {
-    const [ teams, games ] = await Promise.all([this._getRawTeams(YEAR), this._getRawGames(YEAR)]);
+  async getTeam({ slug, season }) {
+    const [ teams, games ] = await Promise.all([this._getRawTeams(season), this._getRawGames(season)]);
     const teamGames = games.filter(({ awayTeam, homeTeam }) => [homeTeam, awayTeam].includes(slug));
 
     return Object.assign({},
@@ -65,8 +63,8 @@ class Api {
     );
   }
 
-  async getGames() {
-    const [ games, teams ] = await Promise.all([this._getRawGames(YEAR), this._getRawTeams(YEAR)]);
+  async getGames({ season }) {
+    const [ games, teams ] = await Promise.all([this._getRawGames(season), this._getRawTeams(season)]);
     return games.map(viewGameMapper(teams));
   }
 }

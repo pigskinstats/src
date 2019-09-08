@@ -16,7 +16,7 @@ export default {
   methods: {
     async updateTeams() {
       try {
-        const teams = await api.getTeams();
+        const teams = await api.getTeams({ season: this.season });
         this.teams = new Paginator(teams.sort(alphaSort(x => x.name)));
       } catch(e) {
         this.error = e;

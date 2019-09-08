@@ -13,7 +13,7 @@ export default {
   methods: {
     async updateTeam(teamId) {
       try {
-        const team = await api.getTeam(teamId);
+        const team = await api.getTeam({ slug: teamId, season: this.season });
         this.team = team;
         this.record = `${team.record.wins}-${team.record.losses}`;
       } catch(e) {
