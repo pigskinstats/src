@@ -4,7 +4,7 @@
       <font-awesome-icon class="football-icon" icon="football-ball"/>
     </div>
     <div>
-      <h1>PigskinStats.com</h1>
+      <h1><a href="/">PigskinStats.com</a></h1>
       <div class="subheading">Powered by: <a href="http://prwolfe.bol.ucla.edu/cfootball">Wolfe Scores</a></div>
     </div>
   </div>
@@ -30,9 +30,12 @@ h1 {
 }
 
 .heading {
+  padding: 12px;
+}
+
+.heading, .heading a {
   background-color: #336;
   color: #ccc;
-  padding: 12px;
 }
 
 .subheading {
