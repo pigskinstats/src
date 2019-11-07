@@ -10,6 +10,11 @@ ROW_REGEX = re.compile(r'^(.{9}) (.{27}) (.{2}) (.{27}) (.{2}) ?(.*)?$')
 DATE_REGEX = re.compile(r'^(\d+)-(.+)-(\d+)')
 
 
+NORMALIZATIONS = [
+    ('San JosÃ© St', 'San Jose St'),
+]
+
+
 def try_int(value, default):
     try:
         return int(value)
@@ -72,6 +77,8 @@ def parse_data(teams, data):
     for _ in range(3):
         next(data_iter)
     for row in data_iter:
+        for norm in NORMALIZATIONS:
+            row = row.replace(norm[0], norm[1])
         yield parse_row(teams, row)
 
 class Teams(object):
