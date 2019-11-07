@@ -50,16 +50,21 @@ def parse_date(value):
 
 
 def parse_row(teams, row):
-    matches = ROW_REGEX.search(row)
-    result = {
-        'date': parse_date(matches.group(1).strip()).isoformat(),
-        'awayTeam': teams.get_slug(matches.group(2).strip()),
-        'awayScore': try_int(matches.group(3).strip(), None),
-        'homeTeam': teams.get_slug(matches.group(4).strip()),
-        'homeScore': try_int(matches.group(5).strip(), None),
-        'neutralLocation': matches.group(6).strip() or None,
-    }
-    return { k:v for (k,v) in result.items() if v is not None }
+    try:
+        matches = ROW_REGEX.search(row)
+        result = {
+            'date': parse_date(matches.group(1).strip()).isoformat(),
+            'awayTeam': teams.get_slug(matches.group(2).strip()),
+            'awayScore': try_int(matches.group(3).strip(), None),
+            'homeTeam': teams.get_slug(matches.group(4).strip()),
+            'homeScore': try_int(matches.group(5).strip(), None),
+            'neutralLocation': matches.group(6).strip() or None,
+        }
+        return { k:v for (k,v) in result.items() if v is not None }
+    except:
+        print('Cannot parse row')
+        print(row)
+        raise
 
 
 def parse_data(teams, data):
