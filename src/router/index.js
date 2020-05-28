@@ -1,14 +1,12 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import RouterParent from '@/router/RouterParent';
-import Games from '@/components/routes/Games';
-import Seasons from '@/components/routes/Seasons';
-import Teams from '@/components/routes/Teams';
-import Team from '@/components/routes/Team';
+import Games from '@/views/Games';
+import Seasons from '@/views/Seasons';
+import Teams from '@/views/Teams';
+import Team from '@/views/Team';
 
 Vue.use(Router)
-
-//const RouterParent = { template: '<router-view/>' };
 
 export default new Router({
   routes: [
