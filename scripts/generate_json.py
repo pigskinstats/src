@@ -3,9 +3,9 @@ import re
 from datetime import date
 
 
-INPUT = '../static/wolfe-scores/2019/current.txt'
-GAMES_PATH = '../static/wolfe-scores/2019/games-db.json'
-TEAMS_PATH = '../static/wolfe-scores/2019/teams-db.json'
+INPUT = '../public/static/wolfe-scores/2019/current.txt'
+GAMES_PATH = '../public/static/wolfe-scores/2019/games-db.json'
+TEAMS_PATH = '../public/static/wolfe-scores/2019/teams-db.json'
 ROW_REGEX = re.compile(r'^(.{9}) (.{27}) (.{2}) (.{27}) (.{2}) ?(.*)?$')
 DATE_REGEX = re.compile(r'^(\d+)-(.+)-(\d+)')
 
