@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "download": "cd scripts && python3 ./download_scores.py && python3 ./generate_json.py",
-    "deploy": "cd dist && git add . && git cm --amend -m 'Build app' && git push -f"
+    "deploy": "cp deploy/CNAME . && rm -r deploy/* && mv CNAME deploy/CNAME && cp -r dist/* deploy && cd deploy && git add . && git cm --amend -m 'Build app' && git push -f"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
