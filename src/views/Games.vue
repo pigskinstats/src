@@ -3,19 +3,23 @@
     <page-title title="Games" :info="{ 'Season': season }"/>
     <pagination-controls :paginator="games"/>
     <games-table :season="season" :games="games.items"/>
-    <alert-message v-if="error" level="error">{{ error }}</alert-message>
+    <AlertMessage v-if="error" level="error">{{ error }}</AlertMessage>
   </div>
 </template>
 
 <script>
 import api from '@/modules/api';
 import { Paginator } from '@/modules/pagination';
+import AlertMessage from '@/components/AlertMessage';
 
 function gameSorter(a, b) {
   return b.date.unix - a.date.unix;
 }
 
 export default {
+  components: {
+    AlertMessage,
+  },
   methods: {
     async updateGames() {
       try {

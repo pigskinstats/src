@@ -2,14 +2,18 @@
   <div>
     <page-title :title="`${team.name}`" :info="{ 'Season': season, 'Record': `(${record})` }"/>
     <games-table :season="season" :games="team.games"/>
-    <alert-message v-if="error" level="error">{{ error }}</alert-message>
+    <AlertMessage v-if="error" level="error">{{ error }}</AlertMessage>
   </div>
 </template>
 
 <script>
 import api from '@/modules/api';
+import AlertMessage from '@/components/AlertMessage';
 
 export default {
+  components: {
+    AlertMessage,
+  },
   methods: {
     async updateTeam(teamId) {
       try {
