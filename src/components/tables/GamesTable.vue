@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import DataTable from '@/components/DataTable';
+import DataTable from './DataTable';
 import { unsetOr } from '@/modules/util';
 
 export default {

@@ -9,7 +9,7 @@
 <script>
 import api from '@/modules/api';
 import { AlertMessage, PageTitle } from '@/components/common';
-import GamesTable from '@/components/GamesTable';
+import { GamesTable } from '@/components/tables';
 
 export default {
   components: {

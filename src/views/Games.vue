@@ -11,7 +11,7 @@
 import api from '@/modules/api';
 import { Paginator } from '@/modules/pagination';
 import { AlertMessage, PageTitle, PaginationControls } from '@/components/common';
-import GamesTable from '@/components/GamesTable';
+import { GamesTable }from '@/components/tables';
 
 function gameSorter(a, b) {
   return b.date.unix - a.date.unix;

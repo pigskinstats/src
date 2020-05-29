@@ -7,7 +7,7 @@
 
 <script>
 import { PageTitle } from '@/components/common';
-import SeasonsTable from '@/components/SeasonsTable';
+import { SeasonsTable } from '@/components/tables';
 import api from '@/modules/api';
 
 export default {
