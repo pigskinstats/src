@@ -20,7 +20,6 @@ import PageHeading from '@/components/PageHeading';
 import PageTitle from '@/components/PageTitle';
 import GamesTable from '@/components/GamesTable';
 import TeamsTable from '@/components/TeamsTable';
-import DataTable from '@/components/DataTable';
 import PaginationControls from '@/components/PaginationControls';
 
 Vue.use(BootstrapVue);
@@ -32,7 +31,6 @@ Vue.component('page-title', PageTitle);
 Vue.component('pagination-controls', PaginationControls);
 Vue.component('games-table', GamesTable);
 Vue.component('teams-table', TeamsTable);
-Vue.component('data-table', DataTable);
 
 Vue.config.productionTip = false;
 

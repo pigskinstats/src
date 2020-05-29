@@ -1,5 +1,5 @@
 <template>
-  <data-table>
+  <DataTable>
     <tr v-for="{ homeTeam, awayTeam, date } in games">
       <td style="white-space: nowrap;">{{ date.toString() }}</td>
       <td :class="teamStyle(homeTeam, awayTeam)">
@@ -11,13 +11,17 @@
       </td>
       <td :class="teamStyle(awayTeam, homeTeam)" class="number-cell">{{ scoreValue(awayTeam.score) }}</td>
     </tr>
-  </data-table>
+  </DataTable>
 </template>
 
 <script>
+import DataTable from '@/components/DataTable';
 import { unsetOr } from '@/modules/util';
 
 export default {
+  components: {
+    DataTable,
+  },
   props: {
     season: Number,
     games: Array,
