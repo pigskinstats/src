@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-title :title="`${team.name}`" :info="{ 'Season': season, 'Record': `(${record})` }"/>
+    <PageTitle :title="`${team.name}`" :info="{ 'Season': season, 'Record': `(${record})` }"/>
     <games-table :season="season" :games="team.games"/>
     <AlertMessage v-if="error" level="error">{{ error }}</AlertMessage>
   </div>
@@ -9,10 +9,12 @@
 <script>
 import api from '@/modules/api';
 import AlertMessage from '@/components/AlertMessage';
+import PageTitle from '@/components/PageTitle';
 
 export default {
   components: {
     AlertMessage,
+    PageTitle,
   },
   methods: {
     async updateTeam(teamId) {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-title title="Seasons"/>
+    <PageTitle title="Seasons"/>
     <DataTable>
       <tr v-for="season in seasons">
         <td><router-link :to="{ name: 'Season', params: { season } }">{{ season }}</router-link></td>
@@ -10,11 +10,13 @@
 </template>
 
 <script>
+import PageTitle from '@/components/PageTitle';
 import DataTable from '@/components/DataTable';
 import api from '@/modules/api';
 
 export default {
   components: {
+    PageTitle,
     DataTable,
   },
   data() {
