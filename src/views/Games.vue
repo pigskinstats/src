@@ -10,8 +10,7 @@
 <script>
 import api from '@/modules/api';
 import { Paginator } from '@/modules/pagination';
-import AlertMessage from '@/components/AlertMessage';
-import PageTitle from '@/components/PageTitle';
+import { AlertMessage, PageTitle } from '@/components/common';
 
 function gameSorter(a, b) {
   return b.date.unix - a.date.unix;

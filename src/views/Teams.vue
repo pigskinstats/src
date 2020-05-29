@@ -11,8 +11,7 @@
 import api from '@/modules/api';
 import { alphaSort } from '@/modules/util';
 import { Paginator } from '@/modules/pagination';
-import AlertMessage from '@/components/AlertMessage';
-import PageTitle from '@/components/PageTitle';
+import { AlertMessage, PageTitle } from '@/components/common';
 
 export default {
   components: {

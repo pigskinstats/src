@@ -8,8 +8,7 @@
 
 <script>
 import api from '@/modules/api';
-import AlertMessage from '@/components/AlertMessage';
-import PageTitle from '@/components/PageTitle';
+import { AlertMessage, PageTitle } from '@/components/common';
 
 export default {
   components: {

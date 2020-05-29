@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import PageHeading from '@/components/PageHeading';
+import { PageHeading } from '@/components/common';
 
 export default {
   components: {

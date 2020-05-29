@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import PageTitle from '@/components/PageTitle';
+import { PageTitle } from '@/components/common';
 import DataTable from '@/components/DataTable';
 import api from '@/modules/api';
 
