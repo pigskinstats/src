@@ -1,7 +1,7 @@
 <template>
   <div>
     <PageTitle title="Games" :info="{ 'Season': season }"/>
-    <pagination-controls :paginator="games"/>
+    <PaginationControls :paginator="games"/>
     <games-table :season="season" :games="games.items"/>
     <AlertMessage v-if="error" level="error">{{ error }}</AlertMessage>
   </div>
@@ -10,7 +10,7 @@
 <script>
 import api from '@/modules/api';
 import { Paginator } from '@/modules/pagination';
-import { AlertMessage, PageTitle } from '@/components/common';
+import { AlertMessage, PageTitle, PaginationControls } from '@/components/common';
 
 function gameSorter(a, b) {
   return b.date.unix - a.date.unix;
@@ -20,6 +20,7 @@ export default {
   components: {
     AlertMessage,
     PageTitle,
+    PaginationControls,
   },
   methods: {
     async updateGames() {
