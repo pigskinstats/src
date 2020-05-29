@@ -16,7 +16,6 @@ import {
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import PageHeading from '@/components/PageHeading';
 import PageTitle from '@/components/PageTitle';
 import GamesTable from '@/components/GamesTable';
 import TeamsTable from '@/components/TeamsTable';
@@ -26,7 +25,6 @@ Vue.use(BootstrapVue);
 
 library.add(faFootballBall, faAngleRight, faAngleLeft);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
-Vue.component('page-heading', PageHeading);
 Vue.component('page-title', PageTitle);
 Vue.component('pagination-controls', PaginationControls);
 Vue.component('games-table', GamesTable);
