@@ -1,7 +1,7 @@
 <template>
   <div>
     <PageTitle :title="`${team.name}`" :info="{ 'Season': season, 'Record': `(${record})` }"/>
-    <games-table :season="season" :games="team.games"/>
+    <GamesTable :season="season" :games="team.games"/>
     <AlertMessage v-if="error" level="error">{{ error }}</AlertMessage>
   </div>
 </template>
@@ -9,11 +9,13 @@
 <script>
 import api from '@/modules/api';
 import { AlertMessage, PageTitle } from '@/components/common';
+import GamesTable from '@/components/GamesTable';
 
 export default {
   components: {
     AlertMessage,
     PageTitle,
+    GamesTable,
   },
   methods: {
     async updateTeam(teamId) {

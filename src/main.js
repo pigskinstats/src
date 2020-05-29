@@ -16,15 +16,10 @@ import {
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import GamesTable from '@/components/GamesTable';
-import TeamsTable from '@/components/TeamsTable';
-
 Vue.use(BootstrapVue);
 
 library.add(faFootballBall, faAngleRight, faAngleLeft);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
-Vue.component('games-table', GamesTable);
-Vue.component('teams-table', TeamsTable);
 
 Vue.config.productionTip = false;
 

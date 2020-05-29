@@ -2,7 +2,7 @@
   <div>
     <PageTitle title="Teams" :info="{ 'Season': season }"/>
     <PaginationControls :paginator="teams"/>
-    <teams-table :teams="teams.items"/>
+    <TeamsTable :teams="teams.items"/>
     <AlertMessage v-if="error" level="error">{{ error }}</AlertMessage>
   </div>
 </template>
@@ -12,12 +12,14 @@ import api from '@/modules/api';
 import { alphaSort } from '@/modules/util';
 import { Paginator } from '@/modules/pagination';
 import { AlertMessage, PageTitle, PaginationControls } from '@/components/common';
+import TeamsTable from '@/components/TeamsTable';
 
 export default {
   components: {
     AlertMessage,
     PageTitle,
     PaginationControls,
+    TeamsTable,
   },
   methods: {
     async updateTeams() {
