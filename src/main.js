@@ -1,23 +1,17 @@
 import Vue from 'vue';
-import BootstrapVue from 'bootstrap-vue';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap-vue/dist/bootstrap-vue.css';
 import App from './App';
 import router from './router';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
+import BootstrapVue from 'bootstrap-vue';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { library as fontAwesomeLibrary } from '@fortawesome/fontawesome-svg-core';
+import { faFootballBall, faAngleRight, faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import {
-  faFootballBall,
-  faAngleRight,
-  faAngleLeft,
-} from '@fortawesome/free-solid-svg-icons'
-
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+fontAwesomeLibrary.add(faFootballBall, faAngleRight, faAngleLeft);
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.use(BootstrapVue);
-
-library.add(faFootballBall, faAngleRight, faAngleLeft);
-Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.config.productionTip = false;
 
