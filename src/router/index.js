@@ -13,7 +13,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: { name: 'Games', params: { season: 2019 } },
+      redirect: { name: 'Games', params: { season: 2020 } },
     },
     {
       path: '/seasons',
