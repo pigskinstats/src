@@ -3,7 +3,7 @@ import requests
 
 
 SCORES_URL = 'http://prwolfe.bol.ucla.edu/cfootball/scores.htm'
-REGEX = re.compile(r'<pre>(.*?)</pre>', re.MULTILINE | re.DOTALL | re.IGNORECASE)
+REGEX = re.compile(r'<pre>(.*?)</pre\s*>', re.MULTILINE | re.DOTALL | re.IGNORECASE)
 OUT_PATH = '../static/wolfe-scores/2020/current.txt'
 
 
