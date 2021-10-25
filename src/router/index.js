@@ -10,7 +10,7 @@ export default createRouter({
   routes: [
     {
       path: '/',
-      redirect: { name: 'Games', params: { season: 2020 } },
+      redirect: { name: 'Games', params: { season: 2021 } },
     },
     {
       path: '/seasons',

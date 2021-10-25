@@ -69,7 +69,7 @@ class Api {
   }
 
   getSeasons() {
-    return [ 2018, 2019, 2020 ];
+    return [ 2018, 2019, 2020, 2021 ];
   }
 }
 
