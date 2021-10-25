@@ -44,7 +44,7 @@ export default {
 }
 
 .loser {
-  background-color: #fff;
+  background-color: #fee;
 }
 
 tr {

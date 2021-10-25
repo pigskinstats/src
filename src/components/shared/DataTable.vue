@@ -4,7 +4,7 @@
   </table>
 </template>
 
-<style scoped>
+<style>
 .data-table {
   width: 100%;
 }
