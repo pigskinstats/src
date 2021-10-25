@@ -1,8 +1,8 @@
 <template>
   <div class="data-table-controls">
-    <button class="btn" v-on:click="paginator.back()"><font-awesome-icon icon="angle-left" /> Back</button>
-    <span>Page {{ paginator.page }} of {{ paginator.pages }}</span>
-    <button class="btn" v-on:click="paginator.forward()">Forward <font-awesome-icon icon="angle-right" /></button>
+    <b-button pill size="sm" variant="outline-dark" v-on:click="paginator.back()"><font-awesome-icon icon="angle-left" /> Back</b-button>
+    &nbsp;<span>Page {{ paginator.page }} of {{ paginator.pages }}</span>&nbsp;
+    <b-button pill size="sm" variant="outline-dark" v-on:click="paginator.forward()">Forward <font-awesome-icon icon="angle-right" /></b-button>
   </div>
 </template>
 
