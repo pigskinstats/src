@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "rm -rf dist-old && mv dist dist-old && vue-cli-service build && cp -r dist-old/.git dist",
     "download": "cd scripts && python3 ./download_scores.py && python3 ./generate_json.py",
     "deploy": "cd dist && git add . && git cm --amend -m 'Build app' && git push -f"
   },
