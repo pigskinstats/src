@@ -1,15 +1,12 @@
-import Vue from 'vue';
-import Router from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import Games from '@/components/routes/Games';
 import Seasons from '@/components/routes/Seasons';
 import Teams from '@/components/routes/Teams';
 import Team from '@/components/routes/Team';
+import RouterViewParent from '@/components/shared/RouterViewParent';
 
-Vue.use(Router)
-
-const RouterParent = { template: '<router-view/>' };
-
-export default new Router({
+export default createRouter({
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
@@ -17,7 +14,7 @@ export default new Router({
     },
     {
       path: '/seasons',
-      component: RouterParent,
+      component: RouterViewParent,
       children: [
         {
           path: '',
@@ -26,7 +23,7 @@ export default new Router({
         },
         {
           path: ':season',
-          component: RouterParent,
+          component: RouterViewParent,
           children: [
             {
               path: '',
