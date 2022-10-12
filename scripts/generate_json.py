@@ -26,6 +26,7 @@ def get_data():
     with open(INPUT, 'r') as f:
         return f.readlines()
 
+
 def save_json(data, path):
     with open(path, 'w') as f:
         json.dump(data, f)
@@ -81,6 +82,7 @@ def parse_data(teams, data):
             row = row.replace(norm[0], norm[1])
         yield parse_row(teams, row)
 
+
 class Teams(object):
     def __init__(self):
         self._text_to_slug = {}
@@ -100,7 +102,7 @@ class Teams(object):
         return slug
 
     def to_dict(self):
-        return {  slug: { 'name': name } for name, slug in self._text_to_slug.items() }
+        return {slug: {'name': name} for name, slug in self._text_to_slug.items()}
 
 
 def main():
@@ -114,3 +116,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
