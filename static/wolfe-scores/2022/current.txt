@@ -4231,3 +4231,9 @@ Date      Visiting Team                  Home Team                      or semi-
 31-Dec-22 Ohio State                  41 Georgia                     42 Atlanta GA
 31-Dec-22 Iowa                        21 Kentucky                     0 Nashville TN
 31-Dec-22 Michigan                    45 TCU                         51 Glendale AZ
+02-Jan-23 Purdue                       7 LSU                         63 Orlando FL
+02-Jan-23 Illinois                    10 Mississippi St              19 Tampa FL
+02-Jan-23 Southern Cal                45 Tulane                      46 Arlington TX
+02-Jan-23 Penn State                  35 Utah                        21 Pasadena CA
+08-Jan-23 North Dakota St             21 South Dakota St             45 Frisco TX
+09-Jan-23 Georgia                     65 TCU                          7 Inglewood CA
