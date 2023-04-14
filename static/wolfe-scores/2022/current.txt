@@ -3361,7 +3361,7 @@ Date      Visiting Team                  Home Team                      or semi-
 05-Nov-22 Rocky Mountain               9 Montana St-Northern          0
 05-Nov-22 Montana-Western             27 Montana Tech                21
 05-Nov-22 Marist                      31 Morehead St                 21
-05-Nov-22 Clark Atlanta               26 Morehouse                   35
+05-Nov-22 Clark Atlanta               17 Morehouse                   20
 05-Nov-22 Doane                        3 Morningside                 58
 05-Nov-22 John Carroll                28 Mount Union                 34
 05-Nov-22 Susquehanna                 28 Muhlenberg                  24
@@ -3374,7 +3374,7 @@ Date      Visiting Team                  Home Team                      or semi-
 05-Nov-22 Norfolk St                  24 North Carolina A&T          49
 05-Nov-22 Howard                      21 North Carolina Central      50
 05-Nov-22 Wake Forest                 21 North Carolina St           30
-05-Nov-22 Huntingdon AL               34 North Carolina Wesleyan     17
+05-Nov-22 Huntingdon AL               38 North Carolina Wesleyan     17
 05-Nov-22 Elmhurst                    20 North Park                  23
 05-Nov-22 Florida Int'l               14 North Texas                 52
 05-Nov-22 Montana St                  41 Northern Arizona            38
