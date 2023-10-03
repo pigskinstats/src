@@ -4,7 +4,7 @@ import requests
 
 SCORES_URL = 'http://prwolfe.bol.ucla.edu/cfootball/scores.htm'
 REGEX = re.compile(r'<pre>(.*?)</pre\s*>', re.MULTILINE | re.DOTALL | re.IGNORECASE)
-OUT_PATH = '../static/wolfe-scores/2022/current.txt'
+OUT_PATH = '../static/wolfe-scores/2023/current.txt'
 
 
 def download():
