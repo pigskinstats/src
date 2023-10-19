@@ -12,6 +12,7 @@ DATE_REGEX = re.compile(r'^(\d+)[-=](.+)[-=](\d+)')
 
 NORMALIZATIONS = [
     ('San JosÃ© St', 'San Jose St'),
+    ('`17', ' 17'),     # 2023: William Penn vs. Central Methodist
 ]
 
 
