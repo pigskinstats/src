@@ -4129,7 +4129,7 @@ Date      Visiting Team                  Home Team                      or semi-
 25-Nov-23 Washington St               21 Washington                  24
 25-Nov-23 Duquesne                     7 Youngstown St               40
 01-Dec-23 New Mexico St               35 Liberty                     49
-01-Dec-23 Ashland                     23 McKendree                   20  Hammond IN
+01-Dec-23 Ashland                     23 McKendree                   20 Hammond IN
 01-Dec-23 Oregon                      31 Washington                  34
 02-Dec-23 Richmond                    13 Albany NY                   41
 02-Dec-23 Cortland St                 58 Alma                        41
@@ -4173,3 +4173,46 @@ Date      Visiting Team                  Home Team                      or semi-
 09-Dec-23 North Dakota St             45 South Dakota                17
 09-Dec-23 Villanova                   12 South Dakota St             23
 09-Dec-23 North Central               34 Wartburg                    27
+13-Dec-23 Johnson C. Smith            10 Fort Valley St              23 Fort Lauderdale FL
+15-Dec-23 North Central               37 Cortland St                 38 Salem VA
+15-Dec-23 Albany NY                    0 South Dakota St             59
+16-Dec-23 Miami OH                     9 Appalachian St              13 Orlando FL
+16-Dec-23 Howard                      26 Florida A&M                 30 Atlanta GA
+16-Dec-23 Ohio U.                     41 Georgia Southern            21 Conway SC
+16-Dec-23 Colorado Mines               7 Harding                     38 McKinney TX
+16-Dec-23 Jacksonville St             34 Louisiana-Lafayette         31 New Orleans LA
+16-Dec-23 North Dakota St             29 Montana                     31
+16-Dec-23 Fresno St                   37 New Mexico St               10 Albuquerque NM
+16-Dec-23 California                  14 Texas Tech                  34 Shreveport LA
+16-Dec-23 Boise St                    22 UCLA                        35 Inglewood CA
+18-Dec-23 Northwestern IA             21 Keiser                      31 Durham NC
+18-Dec-23 Western Kentucky            38 Old Dominion                35 Charlotte NC
+19-Dec-23 Marshall                    17 Texas-San Antonio           35 Frisco TX
+21-Dec-23 Syracuse                     0 South Florida               45 Boca Raton FL
+22-Dec-23 Georgia Tech                30 Central Florida             17 Tampa FL
+23-Dec-23 James Madison               21 Air Force                   31 Fort Worth TX
+23-Dec-23 Northern Illinois           21 Arkansas St                 19 Montgomery AL
+23-Dec-23 Coastal Carolina            24 San Jose St                 14 Honolulu HI
+23-Dec-23 Eastern Michigan            10 South Alabama               59
+23-Dec-23 Duke                        17 Troy                        10 Birmingham AL
+23-Dec-23 Northwestern                14 Utah                         7 Las Vegas NV
+23-Dec-23 Georgia St                  45 Utah St                     22 Boise ID
+26-Dec-23 Minnesota                   30 Bowling Green               24 Detroit MI
+26-Dec-23 Rice                        21 Texas St-San Marcos         45 Dallas TX
+26-Dec-23 Kansas                      49 UNLV                        36 Phoenix AZ
+27-Dec-23 West Virginia               30 North Carolina              10 Charlotte NC
+27-Dec-23 Louisville                  28 Southern Cal                42 San Diego CA
+27-Dec-23 Oklahoma St                 31 Texas A&M                   23 Houston TX
+27-Dec-23 Tulane                      20 Virginia Tech               41 Annapolis MD
+28-Dec-23 SMU                         14 Boston College              23 Boston MA
+28-Dec-23 Kansas St                   28 North Carolina St           19 Orlando FL
+28-Dec-23 Arizona                     38 Oklahoma                    24 San Antonio TX
+28-Dec-23 Miami FL                    24 Rutgers                     31 Bronx NY
+29-Dec-23 Kentucky                    35 Clemson                     38 Jacksonville FL
+29-Dec-23 Iowa St                     26 Memphis                     36
+29-Dec-23 Ohio State                   3 Missouri                    14 Arlington TX
+29-Dec-23 Oregon St                    8 Notre Dame                  40 El Paso TX
+30-Dec-23 Maryland                    31 Auburn                      13 Nashville TN
+30-Dec-23 Georgia                     63 Florida St                   3 Miami FL
+30-Dec-23 Penn State                  25 Mississippi                 38 Atlanta GA
+30-Dec-23 Toledo                      15 Wyoming                     16 Tucson AZ
