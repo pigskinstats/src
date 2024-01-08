@@ -4216,3 +4216,8 @@ Date      Visiting Team                  Home Team                      or semi-
 30-Dec-23 Georgia                     63 Florida St                   3 Miami FL
 30-Dec-23 Penn State                  25 Mississippi                 38 Atlanta GA
 30-Dec-23 Toledo                      15 Wyoming                     16 Tucson AZ
+01-Jan-24 Michigan                    27 Alabama                     20 Pasadena CA
+01-Jan-24 Wisconsin                   31 LSU                         35 Tampa FL
+01-Jan-24 Liberty                      6 Oregon                      45 Glendale AZ
+01-Jan-24 Iowa                         0 Tennessee                   35 Orlando FL
+01-Jan-24 Washington                  37 Texas                       31 New Orleans LA
